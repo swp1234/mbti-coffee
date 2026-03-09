@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "MBTI Kahve Testi - DopaBrain",
+    "description": "MBTI kisilik tipinize uyan mukemmel kahveyi bulun! 8 kafe senaryosu sorusu kahve ruh esinizi ortaya cikarir."
+  },
+  "a11y": { "skipToContent": "Icerige atla" },
+  "loader": { "loading": "Yukleniyor..." },
+  "app": {
+    "title": "MBTI Kahve Testi",
+    "subtitle": "Kisiligine uyan mukemmel kahveyi bul",
+    "startDesc": "8 kafe senaryosu sorusunu yanitla ve MBTI kahveni kesfet!",
+    "startBtn": "Teste Basla",
+    "questionLabel": "Soru",
+    "retryBtn": "Tekrar Dene"
+  },
+  "questions": {
+    "q1": {
+      "text": "Bir kafeye girdiniz. Nasil siparis verirsiniz?",
+      "options": {
+        "0": { "icon": "💬", "text": "Barista ile sohbet edip oneri alirim" },
+        "1": { "icon": "🎉", "text": "Arkadaslarla gelip birlikte secim yapariz" },
+        "2": { "icon": "📱", "text": "Uygulamadan siparis verip sessizce alirim" },
+        "3": { "icon": "🤫", "text": "Menuyu tek basima yavas yavas incelerim" }
+      }
+    },
+    "q2": {
+      "text": "Nasil bir kafe atmosferi tercih edersiniz?",
+      "options": {
+        "0": { "icon": "🪵", "text": "Ahsap masalar, sicak isiklar — klasik kafe" },
+        "1": { "icon": "🏠", "text": "Rahat ve sicak mahalle kafesi" },
+        "2": { "icon": "🎨", "text": "Benzersiz dekorasyonlu konsept kafe" },
+        "3": { "icon": "🌿", "text": "Dogal isik ve bitkilerle dolu kafe" }
+      }
+    },
+    "q3": {
+      "text": "Kahve secerken en onemli sey nedir?",
+      "options": {
+        "0": { "icon": "📊", "text": "Kafein miktari ve verimlilik" },
+        "1": { "icon": "💰", "text": "Fiyat-performans orani" },
+        "2": { "icon": "💕", "text": "Ruh halime uyan lezzet" },
+        "3": { "icon": "🎁", "text": "Guzel sunum ve estetik" }
+      }
+    },
+    "q4": {
+      "text": "Kahve rutininiz nasil?",
+      "options": {
+        "0": { "icon": "⏰", "text": "Her gun ayni saat, ayni kahve" },
+        "1": { "icon": "📋", "text": "Haftalik kafe ziyaretlerimi planliyorum" },
+        "2": { "icon": "🎲", "text": "Tamamen spontan — ruh haline gore" },
+        "3": { "icon": "🌊", "text": "Akisina birakiyorum, plan yok" }
+      }
+    },
+    "q5": {
+      "text": "Kiminle kahve icmek istersiniz?",
+      "options": {
+        "0": { "icon": "👥", "text": "Arkadas grubuyla kafe turu!" },
+        "1": { "icon": "🤝", "text": "Yeni insanlarla tanisma bulusmasinda" },
+        "2": { "icon": "👤", "text": "Yalniz, kendi sessiz zamaninda" },
+        "3": { "icon": "💑", "text": "En yakin arkadasimla ikimiz" }
+      }
+    },
+    "q6": {
+      "text": "Kafede yeni menu cikti!",
+      "options": {
+        "0": { "icon": "✅", "text": "Once yorumlari kontrol ederim" },
+        "1": { "icon": "🔍", "text": "Icerikleri ve kokenini dikkatlice incelerim" },
+        "2": { "icon": "🚀", "text": "Hemen siparis! Yenilikleri severim" },
+        "3": { "icon": "💭", "text": "Ismi ve aciklamasi ilham verirse denerim" }
+      }
+    },
+    "q7": {
+      "text": "Arkadasiniz kotu bir kahve onerdi. Ne yapirsiniz?",
+      "options": {
+        "0": { "icon": "📝", "text": "Duruste lezzet degerlendirmesi yaparim" },
+        "1": { "icon": "🔬", "text": "Neden kotu oldugunu analiz edip aciklaririm" },
+        "2": { "icon": "😊", "text": "Tesekkur edip konuyu degistiririm" },
+        "3": { "icon": "💝", "text": "Arkadasim seviyorsa birlikte icerim" }
+      }
+    },
+    "q8": {
+      "text": "Seyahatte bir kafe kesfettiniz!",
+      "options": {
+        "0": { "icon": "📍", "text": "Onceden arastirdigim yere giderim" },
+        "1": { "icon": "⭐", "text": "En yuksek puanliyi arastiririm" },
+        "2": { "icon": "🚶", "text": "Ilginc gorunene girerim" },
+        "3": { "icon": "🎵", "text": "Ambiyans veya muzigi iyi olani secerim" }
+      }
+    }
+  },
+  "results": {
+    "INTJ": { "name": "Espresso", "tagline": "Yogun, verimli ve aciligi cezbeden", "description": "Espresso gibi, yogunlastirilmis enerji kaynaginiz. Gereksizi atiyor, ozu koruyorsunuz. Bir yudum — kalici izlenim." },
+    "ENFP": { "name": "Karamel Macchiato", "tagline": "Tatli, renkli ve enerji dolu", "description": "Karamel macchiato gibi, tatlilik ve enerjiyi zahmetsizce harmanliyorsunuz. Farkli lezzet katmanlari gibi cesitli cazibenizle her yeri aydinlatiyorsunuz." },
+    "ISTJ": { "name": "Americano", "tagline": "Klasik, istikrarli ve her zaman guvenilir", "description": "Americano gibi, sarsilmaz guvenilirligin simgesisiniz. Gosteisli degil ama her zaman yapilmasi gerekeni yapan biri." },
+    "INFP": { "name": "Lavanta Latte", "tagline": "Essiz, hayalperest ve nazik", "description": "Lavanta latte gibi, dunyada tek ve ozelsiniz. Yumusak cicek ozunuz sessizce kalplere dokunuyor, zengin ic dunyanizla." },
+    "ENTP": { "name": "Cift Shot Flat White", "tagline": "Cesur, deneysel ve keskin", "description": "Cift shot flat white gibi, yogun ama incesiniz. Kaliplari kirmayi seviyor, tartismalarda ve beyin firtinalarinda parliyorsunuz." },
+    "ISFJ": { "name": "Vanilya Latte", "tagline": "Sicak, rahatlatici ve cok ilgili", "description": "Vanilya latte gibi, herkesi rahat hissettirirsiniz. Tatli ve yumusak, cevrenizdekilerig sessizce gozetirsiniz." },
+    "ENTJ": { "name": "Cold Brew", "tagline": "Guclu, hedef odakli ve temiz", "description": "Cold brew gibi, disaridan soguk ama icten yaniyorsunuz. Derin lezzet icin uzun demleme — planlamaniz ve uygulamaniz essiiz." },
+    "INFJ": { "name": "Chai Latte", "tagline": "Derin, karmasik ve mistik", "description": "Chai latte gibi, bircok baharatin karmasik karisimsiniz. Yuzeyse yumusak ama icinde derin kavrayis ve tutku gizli." },
+    "ESTP": { "name": "Buzlu Americano", "tagline": "Cool, enerjik ve spontan", "description": "Buzlu americano gibi, her durumda cool kalirsiniz. Mevsim farketmez, kendi kurallariniza gore yasarsiniz." },
+    "ISFP": { "name": "Matcha Latte", "tagline": "Artistik, dogal ve duyusal", "description": "Matcha latte gibi, dogal bir guzellige sahipsiniz. Benzersiz estetik anlayisinizla sessizce kendi sanat dunya nizi kurarsiz." },
+    "ESTJ": { "name": "Filtre Kahve", "tagline": "Pratik, geleneksel ve dogal lider", "description": "Filtre kahve gibi, sureci tam olarak takip ederek en iyi sonuclari elde edersiniz. Sistematik ve kesin uygulama sizin tarziniz." },
+    "INTP": { "name": "Turk Kahvesi", "tagline": "Entelektuel, essiz ve derin", "description": "Turk kahvesi gibi, aliksilmadik yontemlerle derin tatlar yaratirsiniz. Dunyaya farkli bakiyor ve karmasik problemleri cozmeyi seviyorsunuz." },
+    "ESFP": { "name": "Frappuccino", "tagline": "Parti, gosteisli ve neseli", "description": "Frappuccino gibi, renkli ve nesele dolusunuz. Kirema ve surup cazibenizle herkesi gulumsetisiniz." },
+    "ISTP": { "name": "Long Black", "tagline": "Minimalist, bagimsiz ve islevsel", "description": "Long black gibi, gereksiz seylere yer vermeden oze odaklanirsiniz. Tek basiniza mukemmel calisir, sadece gerekli olani alirsiniz." },
+    "ESFJ": { "name": "Cappuccino", "tagline": "Sosyal, sicak ve uyumlu", "description": "Cappuccino gibi, yumusak kopuk ve zengin kahvenin mukemmel uyumusunuz. Her bulusmanin merkezinde herkesi rahat hissettirirsiniz." },
+    "ENFJ": { "name": "Mocha", "tagline": "Tutkulu, kapsayici, tatli ve guclu", "description": "Mocha gibi, cikolata tatliligi ile espresso yogunlugunu birlestirirsiniz. Sicak karizmayla insanlara onculuk eder, herkesin parlamasina yardim edersiniz." }
+  },
+  "traits": {
+    "intense": "Yogun", "efficient": "Verimli", "bold": "Cesur",
+    "sweet": "Tatli", "colorful": "Renkli", "energetic": "Enerjik",
+    "classic": "Klasik", "stable": "Istikrarli", "consistent": "Tutarli",
+    "unique": "Essiz", "dreamy": "Hayalperest", "gentle": "Nazik",
+    "experimental": "Deneysel", "sharp": "Keskin",
+    "warm": "Sicak", "comforting": "Rahatlatici", "caring": "Ilgili",
+    "powerful": "Guclu", "goalDriven": "Hedef Odakli", "clean": "Temiz",
+    "deep": "Derin", "complex": "Karmasik", "mystical": "Mistik",
+    "cool": "Cool", "spontaneous": "Spontan",
+    "artistic": "Artistik", "natural": "Dogal", "sensory": "Duyusal",
+    "practical": "Pratik", "traditional": "Geleneksel", "leader": "Lider",
+    "intellectual": "Entelektuel", "profound": "Derin",
+    "party": "Parti", "glamorous": "Gosteisli", "joyful": "Neseli",
+    "minimal": "Minimalist", "independent": "Bagimsiz", "functional": "Islevsel",
+    "social": "Sosyal", "harmonious": "Uyumlu",
+    "passionate": "Tutkulu", "inclusive": "Kapsayici", "sweetStrong": "Tatli+Guclu"
+  },
+  "share": {
+    "title": "Sonuclarini paylas",
+    "copyLink": "Baglanti kopyala",
+    "copied": "Kopyalandi!",
+    "text": "MBTI kahvem {coffee} ({mbti})!",
+    "cta": "Sen de kesfet!"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MBTI Coffee Test",
+  "short_name": "MBTI Coffee",
+  "start_url": "/mbti-coffee/",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#6F4E37",
+  "icons": [
+    { "src": "icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" },
+    { "src": "icon-512.svg", "sizes": "512x512", "type": "image/svg+xml" }
+  ]
+}

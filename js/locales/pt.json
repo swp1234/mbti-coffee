@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "Teste de Cafe MBTI - DopaBrain",
+    "description": "Encontre o cafe perfeito que combina com seu tipo de personalidade MBTI! 8 perguntas de cenarios em cafeterias revelam sua alma gemea do cafe."
+  },
+  "a11y": { "skipToContent": "Pular para o conteudo" },
+  "loader": { "loading": "Carregando..." },
+  "app": {
+    "title": "Teste de Cafe MBTI",
+    "subtitle": "Encontre o cafe perfeito para sua personalidade",
+    "startDesc": "Responda 8 perguntas sobre cenarios em cafeterias e descubra seu cafe MBTI!",
+    "startBtn": "Iniciar Teste",
+    "questionLabel": "Pergunta",
+    "retryBtn": "Tentar novamente"
+  },
+  "questions": {
+    "q1": {
+      "text": "Voce entra em uma cafeteria. Como faz o pedido?",
+      "options": {
+        "0": { "icon": "💬", "text": "Converso com o barista e peco sugestao" },
+        "1": { "icon": "🎉", "text": "Venho com amigos e escolhemos juntos animados" },
+        "2": { "icon": "📱", "text": "Faco pedido pelo app e retiro silenciosamente" },
+        "3": { "icon": "🤫", "text": "Olho o cardapio sozinho com calma" }
+      }
+    },
+    "q2": {
+      "text": "Qual ambiente de cafeteria voce prefere?",
+      "options": {
+        "0": { "icon": "🪵", "text": "Mesas de madeira, luzes quentes — classico" },
+        "1": { "icon": "🏠", "text": "Cafeteria aconchegante do bairro" },
+        "2": { "icon": "🎨", "text": "Cafeteria conceito com decoracao unica" },
+        "3": { "icon": "🌿", "text": "Cafeteria cheia de plantas com luz natural" }
+      }
+    },
+    "q3": {
+      "text": "O que mais importa ao escolher cafe?",
+      "options": {
+        "0": { "icon": "📊", "text": "Teor de cafeina e eficiencia" },
+        "1": { "icon": "💰", "text": "Custo-beneficio — preco vs quantidade" },
+        "2": { "icon": "💕", "text": "Sabor que combine com meu humor" },
+        "3": { "icon": "🎁", "text": "Apresentacao bonita e estetica" }
+      }
+    },
+    "q4": {
+      "text": "Qual e sua rotina de cafe?",
+      "options": {
+        "0": { "icon": "⏰", "text": "Mesmo horario, mesmo cafe, todo dia" },
+        "1": { "icon": "📋", "text": "Planejo minhas visitas a cafeterias na semana" },
+        "2": { "icon": "🎲", "text": "Totalmente espontaneo — depende do humor" },
+        "3": { "icon": "🌊", "text": "Vou com o fluxo, sem planos" }
+      }
+    },
+    "q5": {
+      "text": "Com quem voce quer tomar cafe?",
+      "options": {
+        "0": { "icon": "👥", "text": "Tour de cafeterias com a galera!" },
+        "1": { "icon": "🤝", "text": "Num encontro com pessoas novas" },
+        "2": { "icon": "👤", "text": "Sozinho, no meu tempo tranquilo" },
+        "3": { "icon": "💑", "text": "Com meu melhor amigo/a" }
+      }
+    },
+    "q6": {
+      "text": "Tem um novo item no cardapio da cafeteria!",
+      "options": {
+        "0": { "icon": "✅", "text": "Primeiro checo as avaliacoes" },
+        "1": { "icon": "🔍", "text": "Investigo os ingredientes e origem" },
+        "2": { "icon": "🚀", "text": "Peco na hora! Adoro novidades" },
+        "3": { "icon": "💭", "text": "Se o nome e a descricao me inspirarem, experimento" }
+      }
+    },
+    "q7": {
+      "text": "Seu amigo recomendou um cafe ruim. O que voce faz?",
+      "options": {
+        "0": { "icon": "📝", "text": "Dou minha opiniao honesta sobre o sabor" },
+        "1": { "icon": "🔬", "text": "Analiso e explico por que nao e bom" },
+        "2": { "icon": "😊", "text": "Agradeco e mudo de assunto" },
+        "3": { "icon": "💝", "text": "Se meu amigo gosta, tomo junto" }
+      }
+    },
+    "q8": {
+      "text": "Voce descobre uma cafeteria viajando!",
+      "options": {
+        "0": { "icon": "📍", "text": "Vou na que pesquisei antes" },
+        "1": { "icon": "⭐", "text": "Busco a melhor avaliada por perto" },
+        "2": { "icon": "🚶", "text": "Entro na que parecer interessante" },
+        "3": { "icon": "🎵", "text": "Escolho pela vibe ou musica" }
+      }
+    }
+  },
+  "results": {
+    "INTJ": { "name": "Espresso", "tagline": "Intenso, eficiente e atraentemente amargo", "description": "Como um espresso, voce e pura energia concentrada. Remove o desnecessario e mantém a essencia. Um gole — uma impressao duradoura." },
+    "ENFP": { "name": "Caramel Macchiato", "tagline": "Doce, colorido e cheio de energia", "description": "Como um caramel macchiato, voce combina docura e energia naturalmente. Camadas de sabores como seu charme diverso que ilumina qualquer ambiente." },
+    "ISTJ": { "name": "Americano", "tagline": "Classico, estavel e sempre confiavel", "description": "Como um americano, voce e um icone de confiabilidade inabalavel. Nao chamativo, mas sempre la fazendo o que precisa ser feito." },
+    "INFP": { "name": "Latte de Lavanda", "tagline": "Unico, sonhador e delicado", "description": "Como um latte de lavanda, voce e unico no mundo. Sua sutil essencia floral toca coracoes silenciosamente, com um mundo interior rico e sem limites." },
+    "ENTP": { "name": "Flat White Duplo", "tagline": "Ousado, experimental e afiado", "description": "Como um flat white duplo, voce e intenso e refinado. Ama quebrar padroes e brilha em debates e brainstorms." },
+    "ISFJ": { "name": "Latte de Baunilha", "tagline": "Caloroso, aconchegante e muito atencioso", "description": "Como um latte de baunilha, voce faz todos se sentirem confortaveis. Doce e suave, cuida discretamente de quem esta ao redor." },
+    "ENTJ": { "name": "Cold Brew", "tagline": "Poderoso, focado em objetivos e limpo", "description": "Como um cold brew, voce parece frio por fora mas arde por dentro. Longa extracao para sabor profundo — seu planejamento e execucao sao incomparaveis." },
+    "INFJ": { "name": "Chai Latte", "tagline": "Profundo, complexo e mistico", "description": "Como um chai latte, voce e uma mistura complexa de muitas especiarias. Suave na superficie, mas com profunda percepcao e paixao interior." },
+    "ESTP": { "name": "Americano Gelado", "tagline": "Descolado, energico e espontaneo", "description": "Como um americano gelado, voce fica cool em qualquer situacao. Independente da estacao, vive do seu jeito." },
+    "ISFP": { "name": "Matcha Latte", "tagline": "Artistico, natural e sensorial", "description": "Como um matcha latte, voce possui beleza natural. Com seu senso estetico unico, constroi silenciosamente seu proprio mundo de arte." },
+    "ESTJ": { "name": "Cafe Coado", "tagline": "Pratico, tradicional e lider nato", "description": "Como um cafe coado, voce segue o processo com precisao alcancando os melhores resultados. Execucao sistematica e precisa e seu estilo." },
+    "INTP": { "name": "Cafe Turco", "tagline": "Intelectual, unico e profundo", "description": "Como um cafe turco, voce cria sabor profundo com metodos nao convencionais. Ve o mundo de forma diferente e adora resolver problemas complexos." },
+    "ESFP": { "name": "Frappuccino", "tagline": "Festa, glamour e alegria", "description": "Como um frappuccino, voce e colorido e cheio de alegria. Com charme de chantilly e calda, faz todos sorrirem." },
+    "ISTP": { "name": "Long Black", "tagline": "Minimalista, independente e funcional", "description": "Como um long black, voce foca na essencia sem enfeites. Funciona perfeitamente sozinho e pega so o necessario." },
+    "ESFJ": { "name": "Cappuccino", "tagline": "Social, caloroso e harmonioso", "description": "Como um cappuccino, voce e a mistura perfeita de espuma suave e cafe encorpado. No centro de cada encontro, faz todos ficarem confortaveis." },
+    "ENFJ": { "name": "Mocha", "tagline": "Apaixonado, inclusivo, doce e forte", "description": "Como um mocha, voce combina a docura do chocolate com a intensidade do espresso. Com carisma caloroso, lidera e ajuda todos a brilharem." }
+  },
+  "traits": {
+    "intense": "Intenso", "efficient": "Eficiente", "bold": "Ousado",
+    "sweet": "Doce", "colorful": "Colorido", "energetic": "Energico",
+    "classic": "Classico", "stable": "Estavel", "consistent": "Constante",
+    "unique": "Unico", "dreamy": "Sonhador", "gentle": "Delicado",
+    "experimental": "Experimental", "sharp": "Afiado",
+    "warm": "Caloroso", "comforting": "Aconchegante", "caring": "Atencioso",
+    "powerful": "Poderoso", "goalDriven": "Focado em objetivos", "clean": "Limpo",
+    "deep": "Profundo", "complex": "Complexo", "mystical": "Mistico",
+    "cool": "Descolado", "spontaneous": "Espontaneo",
+    "artistic": "Artistico", "natural": "Natural", "sensory": "Sensorial",
+    "practical": "Pratico", "traditional": "Tradicional", "leader": "Lider",
+    "intellectual": "Intelectual", "profound": "Profundo",
+    "party": "Festa", "glamorous": "Glamuroso", "joyful": "Alegre",
+    "minimal": "Minimalista", "independent": "Independente", "functional": "Funcional",
+    "social": "Social", "harmonious": "Harmonioso",
+    "passionate": "Apaixonado", "inclusive": "Inclusivo", "sweetStrong": "Doce+Forte"
+  },
+  "share": {
+    "title": "Compartilhe seus resultados",
+    "copyLink": "Copiar link",
+    "copied": "Copiado!",
+    "text": "Meu cafe MBTI e {coffee} ({mbti})!",
+    "cta": "Descubra o seu!"
+  }
+}
