@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI Coffee Test - DopaBrain",
-    "description": "Find the perfect coffee that matches your MBTI personality type! 8 coffee shop scenario questions reveal your coffee soulmate."
+    "description": "Find the perfect coffee that matches your MBTI personality type! 8 coffee shop scenario questions reveal your coffee soulmate.",
+    "participants": "8,900+ participants",
+    "timeEstimate": "~2 min • 8 questions",
+    "previewText": "Sample:"
   },
   "a11y": {
     "skipToContent": "Skip to content"
@@ -15,6 +18,7 @@
     "startDesc": "Answer 8 coffee shop scenario questions to discover your MBTI coffee match!",
     "startBtn": "Start Test",
     "questionLabel": "Question",
+    "ofLabel": "of",
     "retryBtn": "Try Again"
   },
   "questions": {

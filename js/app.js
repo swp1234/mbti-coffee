@@ -82,6 +82,16 @@
     if (!container) return;
 
     progressText.textContent = `${currentQuestion + 1} / ${totalQuestions}`;
+
+    // Add numeric progress label
+    const progressContainer = document.querySelector('.progress-container');
+    let progressLabel = progressContainer.querySelector('.progress-label');
+    if (!progressLabel) {
+      progressLabel = document.createElement('div');
+      progressLabel.className = 'progress-label';
+      progressContainer.insertBefore(progressLabel, progressContainer.firstChild);
+    }
+    progressLabel.textContent = `${t('app.questionLabel', 'Question')} ${currentQuestion + 1} ${t('app.ofLabel', 'of')} ${totalQuestions}`;
     updateCoffeeFill();
 
     const qText = t(`questions.${q.key}.text`, `Question ${currentQuestion + 1}`);
@@ -307,7 +317,14 @@
       });
     }
 
-    hideLoader();
+    // Wait for i18n to be ready before hiding loader
+    const startTime = Date.now();
+    const waitForI18n = setInterval(() => {
+      if ((window.i18n && window.i18n.initialized) || Date.now() - startTime > 2000) {
+        clearInterval(waitForI18n);
+        hideLoader();
+      }
+    }, 50);
   }
 
   if (document.readyState === 'loading') {

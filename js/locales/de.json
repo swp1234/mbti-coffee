@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI Kaffee-Test - DopaBrain",
-    "description": "Finde den perfekten Kaffee fuer deinen MBTI-Typ! 8 Cafe-Fragen enthuellen deinen Kaffee-Seelenverwandten."
+    "description": "Finde den perfekten Kaffee fuer deinen MBTI-Typ! 8 Cafe-Fragen enthuellen deinen Kaffee-Seelenverwandten.",
+    "participants": "8.900+ Teilnehmer",
+    "timeEstimate": "~2 Min • 8 Fragen",
+    "previewText": "Beispiel:"
   },
   "a11y": {
     "skipToContent": "Zum Inhalt springen"
@@ -15,6 +18,7 @@
     "startDesc": "Beantworte 8 Cafe-Szenario-Fragen und entdecke deinen MBTI-Kaffee!",
     "startBtn": "Test starten",
     "questionLabel": "Frage",
+    "ofLabel": "von",
     "retryBtn": "Nochmal"
   },
   "questions": {

@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Teste de Cafe MBTI - DopaBrain",
-    "description": "Encontre o cafe perfeito que combina com seu tipo de personalidade MBTI! 8 perguntas de cenarios em cafeterias revelam sua alma gemea do cafe."
+    "description": "Encontre o cafe perfeito que combina com seu tipo de personalidade MBTI! 8 perguntas de cenarios em cafeterias revelam sua alma gemea do cafe.",
+    "participants": "8.900+ participantes",
+    "timeEstimate": "~2 min • 8 perguntas",
+    "previewText": "Exemplo:"
   },
   "a11y": { "skipToContent": "Pular para o conteudo" },
   "loader": { "loading": "Carregando..." },
@@ -11,6 +14,7 @@
     "startDesc": "Responda 8 perguntas sobre cenarios em cafeterias e descubra seu cafe MBTI!",
     "startBtn": "Iniciar Teste",
     "questionLabel": "Pergunta",
+    "ofLabel": "de",
     "retryBtn": "Tentar novamente"
   },
   "questions": {

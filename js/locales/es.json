@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Test de Cafe MBTI - DopaBrain",
-    "description": "Encuentra el cafe perfecto que coincide con tu tipo de personalidad MBTI. 8 preguntas de escenarios en cafeterias revelan tu cafe ideal."
+    "description": "Encuentra el cafe perfecto que coincide con tu tipo de personalidad MBTI. 8 preguntas de escenarios en cafeterias revelan tu cafe ideal.",
+    "participants": "8.900+ participantes",
+    "timeEstimate": "~2 min • 8 preguntas",
+    "previewText": "Ejemplo:"
   },
   "a11y": { "skipToContent": "Saltar al contenido" },
   "loader": { "loading": "Cargando..." },
@@ -11,6 +14,7 @@
     "startDesc": "Responde 8 preguntas sobre escenarios en cafeterias y descubre tu cafe MBTI!",
     "startBtn": "Iniciar Test",
     "questionLabel": "Pregunta",
+    "ofLabel": "de",
     "retryBtn": "Intentar de nuevo"
   },
   "questions": {

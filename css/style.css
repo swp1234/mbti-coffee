@@ -160,6 +160,34 @@ body {
   max-width: 400px;
   margin: 0 auto;
 }
+.social-proof {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.1);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+.time-estimate {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+.result-preview {
+  margin-top: 16px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+}
+.progress-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
 
 /* Card */
 .card {

@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI 커피 테스트 - DopaBrain",
-    "description": "당신의 MBTI 유형에 딱 맞는 커피를 찾아보세요! 8개의 카페 시나리오 질문으로 나만의 커피를 발견하세요."
+    "description": "당신의 MBTI 유형에 딱 맞는 커피를 찾아보세요! 8개의 카페 시나리오 질문으로 나만의 커피를 발견하세요.",
+    "participants": "8,900명+ 참여",
+    "timeEstimate": "~2분 • 8문항",
+    "previewText": "예시:"
   },
   "a11y": {
     "skipToContent": "본문으로 건너뛰기"
@@ -15,6 +18,7 @@
     "startDesc": "8개의 카페 시나리오 질문에 답하고 나만의 MBTI 커피를 발견하세요!",
     "startBtn": "테스트 시작",
     "questionLabel": "질문",
+    "ofLabel": "/",
     "retryBtn": "다시 하기"
   },
   "questions": {

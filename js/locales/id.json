@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Tes Kopi MBTI - DopaBrain",
-    "description": "Temukan kopi sempurna yang cocok dengan tipe kepribadian MBTI kamu! 8 pertanyaan skenario kafe mengungkap pasangan kopi jiwamu."
+    "description": "Temukan kopi sempurna yang cocok dengan tipe kepribadian MBTI kamu! 8 pertanyaan skenario kafe mengungkap pasangan kopi jiwamu.",
+    "participants": "8.900+ peserta",
+    "timeEstimate": "~2 menit • 8 pertanyaan",
+    "previewText": "Contoh:"
   },
   "a11y": { "skipToContent": "Langsung ke konten" },
   "loader": { "loading": "Memuat..." },
@@ -11,6 +14,7 @@
     "startDesc": "Jawab 8 pertanyaan skenario kafe dan temukan kopi MBTI-mu!",
     "startBtn": "Mulai Tes",
     "questionLabel": "Pertanyaan",
+    "ofLabel": "dari",
     "retryBtn": "Coba lagi"
   },
   "questions": {

@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI Kahve Testi - DopaBrain",
-    "description": "MBTI kisilik tipinize uyan mukemmel kahveyi bulun! 8 kafe senaryosu sorusu kahve ruh esinizi ortaya cikarir."
+    "description": "MBTI kisilik tipinize uyan mukemmel kahveyi bulun! 8 kafe senaryosu sorusu kahve ruh esinizi ortaya cikarir.",
+    "participants": "8.900+ katilimci",
+    "timeEstimate": "~2 dk • 8 soru",
+    "previewText": "Ornek:"
   },
   "a11y": { "skipToContent": "Icerige atla" },
   "loader": { "loading": "Yukleniyor..." },
@@ -11,6 +14,7 @@
     "startDesc": "8 kafe senaryosu sorusunu yanitla ve MBTI kahveni kesfet!",
     "startBtn": "Teste Basla",
     "questionLabel": "Soru",
+    "ofLabel": "/",
     "retryBtn": "Tekrar Dene"
   },
   "questions": {

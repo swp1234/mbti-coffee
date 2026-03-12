@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI咖啡测试 - DopaBrain",
-    "description": "找到与你的MBTI性格类型完美匹配的咖啡！8个咖啡馆场景问题揭示你的咖啡灵魂伴侣。"
+    "description": "找到与你的MBTI性格类型完美匹配的咖啡！8个咖啡馆场景问题揭示你的咖啡灵魂伴侣。",
+    "participants": "8,900+ 人参与",
+    "timeEstimate": "~2分钟 • 8个问题",
+    "previewText": "示例："
   },
   "a11y": { "skipToContent": "跳至正文" },
   "loader": { "loading": "加载中..." },
@@ -11,6 +14,7 @@
     "startDesc": "回答8个咖啡馆场景问题，发现属于你的MBTI咖啡！",
     "startBtn": "开始测试",
     "questionLabel": "问题",
+    "ofLabel": "/",
     "retryBtn": "再试一次"
   },
   "questions": {

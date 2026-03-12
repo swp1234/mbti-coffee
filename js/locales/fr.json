@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Test MBTI Cafe - DopaBrain",
-    "description": "Trouvez le cafe parfait pour votre type MBTI ! 8 questions de scenarios au cafe."
+    "description": "Trouvez le cafe parfait pour votre type MBTI ! 8 questions de scenarios au cafe.",
+    "participants": "8 900+ participants",
+    "timeEstimate": "~2 min • 8 questions",
+    "previewText": "Exemple :"
   },
   "a11y": {
     "skipToContent": "Aller au contenu"
@@ -15,6 +18,7 @@
     "startDesc": "Repondez a 8 questions et decouvrez votre cafe MBTI !",
     "startBtn": "Commencer",
     "questionLabel": "Question",
+    "ofLabel": "sur",
     "retryBtn": "Recommencer"
   },
   "questions": {
