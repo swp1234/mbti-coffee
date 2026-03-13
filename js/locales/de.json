@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "MBTI Kaffee-Test - DopaBrain",
-    "description": "Finde den perfekten Kaffee fuer deinen MBTI-Typ! 8 Cafe-Fragen enthuellen deinen Kaffee-Seelenverwandten.",
+    "title": "Kostenloser MBTI Kaffee-Test - DopaBrain",
+    "description": "Welcher Kaffee passt zu deinem MBTI? Kostenloser Test mit 8 Café-Szenarien!",
     "participants": "8.900+",
     "timeEstimate": "~2 Min • 8 Fragen",
     "previewText": "Beispiel:",
@@ -14,7 +14,7 @@
     "loading": "Laden..."
   },
   "app": {
-    "title": "MBTI Kaffee-Test",
+    "title": "MBTI Kaffee-Test - Dein Persönlichkeits-Kaffee",
     "subtitle": "Finde den perfekten Kaffee fuer deine Persoenlichkeit",
     "startDesc": "Beantworte 8 Cafe-Szenario-Fragen und entdecke deinen MBTI-Kaffee!",
     "startBtn": "Finde meinen Kaffee",
@@ -338,5 +338,12 @@
     "mbtiLove": "MBTI Liebes-Match",
     "mbtiCareer": "MBTI Karriere",
     "emotionIceberg": "Emotions-Eisberg"
+  },
+  "about": {
+    "toggle": "Über diesen Test",
+    "heading1": "Wie der MBTI-Kaffee-Test funktioniert",
+    "text1": "Der Test analysiert deine Persönlichkeit anhand von 8 Café-Szenario-Fragen. Basierend auf deinen Antworten wirst du mit einem von 16 Kaffeegetränken gematcht.",
+    "heading2": "Was dein Kaffee über dich sagt",
+    "text2": "Dein zugeordneter Kaffee gibt Einblicke in deinen Energiestil, soziale Präferenzen und Entscheidungsansatz."
   }
 }

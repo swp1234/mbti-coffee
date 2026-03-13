@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "MBTI Coffee Test - DopaBrain",
-    "description": "Find the perfect coffee that matches your MBTI personality type! 8 coffee shop scenario questions reveal your coffee soulmate.",
+    "title": "Free MBTI Coffee Match Test Online - DopaBrain",
+    "description": "Find the coffee that matches your MBTI personality! Take this free online quiz with 8 cafe scenarios. Discover your coffee soulmate now!",
     "participants": "8,900+",
     "timeEstimate": "~2 min • 8 questions",
     "previewText": "Sample:",
@@ -13,8 +13,15 @@
   "loader": {
     "loading": "Loading..."
   },
+  "about": {
+    "toggle": "About This Test",
+    "heading1": "How the MBTI Coffee Match Test Works",
+    "text1": "The MBTI Coffee Match Test analyzes your personality through 8 cafe scenario questions. Each question evaluates one of the four MBTI dimensions: Extraversion/Introversion, Sensing/Intuition, Thinking/Feeling, and Judging/Perceiving. Based on your answers, you are matched with one of 16 coffee drinks that best reflects your personality traits and coffee preferences.",
+    "heading2": "What Your Coffee Match Says About You",
+    "text2": "Your matched coffee reveals insights about your energy style, social preferences, and decision-making approach. Whether you resonate with Espresso's concentrated intensity, Caramel Macchiato's sweet energy, or Cold Brew's powerful calm, your coffee match helps you understand your personality in a fun, relatable way."
+  },
   "app": {
-    "title": "MBTI Coffee Test",
+    "title": "MBTI Coffee Match Test - Your Personality Coffee",
     "subtitle": "Find the perfect coffee that matches your personality",
     "startDesc": "Answer 8 coffee shop scenario questions to discover your MBTI coffee match!",
     "startBtn": "Find My Coffee Match",

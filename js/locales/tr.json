@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "MBTI Kahve Testi - DopaBrain",
-    "description": "MBTI kisilik tipinize uyan mukemmel kahveyi bulun! 8 kafe senaryosu sorusu kahve ruh esinizi ortaya cikarir.",
+    "title": "Ücretsiz MBTI Kahve Testi - DopaBrain",
+    "description": "Hangi kahve MBTI tipinizle eşleşiyor? 8 kafe senaryolu ücretsiz test!",
     "participants": "8.900+",
     "timeEstimate": "~2 dk • 8 soru",
     "previewText": "Ornek:",
@@ -14,7 +14,7 @@
     "loading": "Yukleniyor..."
   },
   "app": {
-    "title": "MBTI Kahve Testi",
+    "title": "MBTI Kahve Testi - Kişilik Kahveniz",
     "subtitle": "Kisiligine uyan mukemmel kahveyi bul",
     "startDesc": "8 kafe senaryosu sorusunu yanitla ve MBTI kahveni kesfet!",
     "startBtn": "Kahvemi Bul",
@@ -338,5 +338,12 @@
     "mbtiLove": "MBTI Aşk Uyumu",
     "mbtiCareer": "MBTI Kariyer",
     "emotionIceberg": "Duygu buzdağı"
+  },
+  "about": {
+    "toggle": "Test hakkında",
+    "heading1": "MBTI kahve eşleştirme testi nasıl çalışır",
+    "text1": "Test, 8 kafe senaryosu sorusu ile kişiliğinizi analiz eder. Yanıtlarınıza göre 16 kahveden biriyle eşleştirilirsiniz.",
+    "heading2": "Kahveniz sizin hakkınızda ne söylüyor",
+    "text2": "Eşleşen kahve, enerji tarzınız, sosyal tercihleriniz ve karar verme yaklaşımınız hakkında bilgiler ortaya koyar."
   }
 }

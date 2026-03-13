@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Test MBTI Cafe - DopaBrain",
-    "description": "Trouvez le cafe parfait pour votre type MBTI ! 8 questions de scenarios au cafe.",
+    "title": "Test MBTI Café Gratuit - DopaBrain",
+    "description": "Quel café correspond à votre MBTI ? Test gratuit avec 8 scénarios de café !",
     "participants": "8 900+",
     "timeEstimate": "~2 min • 8 questions",
     "previewText": "Exemple :",
@@ -14,7 +14,7 @@
     "loading": "Chargement..."
   },
   "app": {
-    "title": "Test MBTI Cafe",
+    "title": "Test MBTI Café - Votre café personnalité",
     "subtitle": "Trouvez le cafe parfait pour votre personnalite",
     "startDesc": "Repondez a 8 questions et decouvrez votre cafe MBTI !",
     "startBtn": "Trouver mon café",
@@ -338,5 +338,12 @@
     "mbtiLove": "Compatibilité MBTI",
     "mbtiCareer": "Carrière MBTI",
     "emotionIceberg": "Iceberg émotionnel"
+  },
+  "about": {
+    "toggle": "À propos du test",
+    "heading1": "Comment fonctionne le test café MBTI",
+    "text1": "Le test analyse votre personnalité à travers 8 questions de scénarios de café. Selon vos réponses, vous êtes associé à un des 16 cafés.",
+    "heading2": "Ce que votre café dit de vous",
+    "text2": "Le café associé révèle des informations sur votre style d'énergie, préférences sociales et approche décisionnelle."
   }
 }

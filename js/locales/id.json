@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tes Kopi MBTI - DopaBrain",
-    "description": "Temukan kopi sempurna yang cocok dengan tipe kepribadian MBTI kamu! 8 pertanyaan skenario kafe mengungkap pasangan kopi jiwamu.",
+    "title": "Tes Kopi MBTI Gratis - DopaBrain",
+    "description": "Kopi apa yang cocok dengan MBTI Anda? Tes gratis dengan 8 skenario kafe. Coba sekarang!",
     "participants": "8.900+",
     "timeEstimate": "~2 menit • 8 pertanyaan",
     "previewText": "Contoh:",
@@ -14,7 +14,7 @@
     "loading": "Memuat..."
   },
   "app": {
-    "title": "Tes Kopi MBTI",
+    "title": "Tes Kopi MBTI - Kopi Kepribadianmu",
     "subtitle": "Temukan kopi sempurna yang cocok dengan kepribadianmu",
     "startDesc": "Jawab 8 pertanyaan skenario kafe dan temukan kopi MBTI-mu!",
     "startBtn": "Temukan Kopi Saya",
@@ -338,5 +338,12 @@
     "mbtiLove": "Kecocokan Cinta MBTI",
     "mbtiCareer": "Karier MBTI",
     "emotionIceberg": "Gunung es emosi"
+  },
+  "about": {
+    "toggle": "Tentang tes ini",
+    "heading1": "Cara kerja tes kopi MBTI",
+    "text1": "Tes ini menganalisis kepribadian Anda melalui 8 pertanyaan skenario kafe. Berdasarkan jawaban Anda, Anda dicocokkan dengan salah satu dari 16 kopi.",
+    "heading2": "Apa yang dikatakan kopi Anda tentang Anda",
+    "text2": "Kopi yang cocok mengungkapkan wawasan tentang gaya energi, preferensi sosial, dan pendekatan pengambilan keputusan Anda."
   }
 }
