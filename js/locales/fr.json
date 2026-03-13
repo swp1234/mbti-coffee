@@ -328,12 +328,12 @@
   },
   "result": {
     "moreTests": "Explorer plus",
-    "participants": "personnes ont trouvé ce café"
+    "participants": "{count}+ personnes ont correspondu à ce café"
   },
   "related": {
-    "mbtiCity": "MBTI Ville",
-    "mbtiLove": "MBTI Amour",
-    "mbtiCareer": "MBTI Carrière",
-    "emotionIceberg": "Iceberg Émotionnel"
+    "mbtiCity": "Ville MBTI",
+    "mbtiLove": "Compatibilité MBTI",
+    "mbtiCareer": "Carrière MBTI",
+    "emotionIceberg": "Iceberg émotionnel"
   }
 }

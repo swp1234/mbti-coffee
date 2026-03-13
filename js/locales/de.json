@@ -328,11 +328,11 @@
   },
   "result": {
     "moreTests": "Mehr entdecken",
-    "participants": "Personen passten zu diesem Kaffee"
+    "participants": "{count}+ Personen passten zu diesem Kaffee"
   },
   "related": {
-    "mbtiCity": "MBTI Stadt-Match",
-    "mbtiLove": "MBTI Liebe",
+    "mbtiCity": "MBTI Stadt",
+    "mbtiLove": "MBTI Liebes-Match",
     "mbtiCareer": "MBTI Karriere",
     "emotionIceberg": "Emotions-Eisberg"
   }

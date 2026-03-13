@@ -136,12 +136,12 @@
   },
   "result": {
     "moreTests": "探索更多",
-    "participants": "人匹配了这款咖啡"
+    "participants": "{count}+人匹配了这杯咖啡"
   },
   "related": {
-    "mbtiCity": "MBTI 城市匹配",
-    "mbtiLove": "MBTI 恋爱匹配",
-    "mbtiCareer": "MBTI 职业匹配",
-    "emotionIceberg": "情绪冰山测试"
+    "mbtiCity": "MBTI城市",
+    "mbtiLove": "MBTI恋爱匹配",
+    "mbtiCareer": "MBTI职业",
+    "emotionIceberg": "情感冰山"
   }
 }

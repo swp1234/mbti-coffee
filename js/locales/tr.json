@@ -135,13 +135,13 @@
     "cta": "Sen de kesfet!"
   },
   "result": {
-    "moreTests": "Daha Fazla Test",
-    "participants": "kişi bu kahveyle eşleşti"
+    "moreTests": "Daha fazla keşfet",
+    "participants": "{count}+ kişi bu kahveyle eşleşti"
   },
   "related": {
-    "mbtiCity": "MBTI Şehir Eşleşmesi",
-    "mbtiLove": "MBTI Aşk Eşleşmesi",
+    "mbtiCity": "MBTI Şehir",
+    "mbtiLove": "MBTI Aşk Uyumu",
     "mbtiCareer": "MBTI Kariyer",
-    "emotionIceberg": "Duygu Buzdağı"
+    "emotionIceberg": "Duygu buzdağı"
   }
 }

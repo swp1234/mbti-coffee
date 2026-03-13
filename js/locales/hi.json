@@ -135,13 +135,13 @@
     "cta": "अपनी भी खोजें!"
   },
   "result": {
-    "moreTests": "और टेस्ट देखें",
-    "participants": "लोग इस कॉफी से मैच हुए"
+    "moreTests": "और जानें",
+    "participants": "{count}+ लोगों ने इस कॉफी से मिलान किया"
   },
   "related": {
-    "mbtiCity": "MBTI शहर मैच",
-    "mbtiLove": "MBTI प्रेम मैच",
+    "mbtiCity": "MBTI शहर",
+    "mbtiLove": "MBTI प्रेम मिलान",
     "mbtiCareer": "MBTI करियर",
-    "emotionIceberg": "इमोशन आइसबर्ग"
+    "emotionIceberg": "भावना हिमशैल"
   }
 }

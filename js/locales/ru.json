@@ -136,11 +136,11 @@
   },
   "result": {
     "moreTests": "Ещё тесты",
-    "participants": "человек подобрали этот кофе"
+    "participants": "{count}+ человек совпали с этим кофе"
   },
   "related": {
     "mbtiCity": "MBTI Город",
-    "mbtiLove": "MBTI Любовь",
+    "mbtiLove": "MBTI Совместимость",
     "mbtiCareer": "MBTI Карьера",
     "emotionIceberg": "Айсберг эмоций"
   }

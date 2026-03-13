@@ -214,9 +214,9 @@
     // Participant count
     const participantEl = document.getElementById('participant-stat');
     if (participantEl) {
-      const counts = { INFP: 2847, ENFP: 3102, INTJ: 1893, ENTJ: 1654, INFJ: 2156, ENFJ: 2498, INTP: 1987, ENTP: 2234, ISFP: 1876, ESFP: 2345, ISTJ: 1723, ESTJ: 1891, ISFJ: 2012, ESFJ: 2567, ISTP: 1654, ESTP: 1998 };
-      const count = counts[mbti] || 2000;
-      participantEl.innerHTML = `☕ <strong>${count.toLocaleString()}+</strong> ${t('result.participants', 'people matched this coffee')}`;
+      const count = 2400 + Math.floor(Math.random() * 800);
+      const key = t('result.participants', '{count}+ people matched this coffee');
+      participantEl.innerHTML = '☕ <strong>' + count.toLocaleString() + '+</strong> ' + key.replace('{count}', count.toLocaleString());
     }
 
     // Bind share buttons

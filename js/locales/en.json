@@ -232,10 +232,10 @@
   },
   "result": {
     "moreTests": "Explore More",
-    "participants": "people matched this coffee"
+    "participants": "{count}+ people matched this coffee"
   },
   "related": {
-    "mbtiCity": "MBTI City Match",
+    "mbtiCity": "MBTI City",
     "mbtiLove": "MBTI Love Match",
     "mbtiCareer": "MBTI Career",
     "emotionIceberg": "Emotion Iceberg"

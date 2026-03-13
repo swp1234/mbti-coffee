@@ -135,13 +135,13 @@
     "cta": "Temukan punyamu!"
   },
   "result": {
-    "moreTests": "Jelajahi Lainnya",
-    "participants": "orang cocok dengan kopi ini"
+    "moreTests": "Jelajahi lagi",
+    "participants": "{count}+ orang cocok dengan kopi ini"
   },
   "related": {
-    "mbtiCity": "MBTI Kota",
-    "mbtiLove": "MBTI Cinta",
-    "mbtiCareer": "MBTI Karir",
-    "emotionIceberg": "Gunung Es Emosi"
+    "mbtiCity": "Kota MBTI",
+    "mbtiLove": "Kecocokan Cinta MBTI",
+    "mbtiCareer": "Karier MBTI",
+    "emotionIceberg": "Gunung es emosi"
   }
 }

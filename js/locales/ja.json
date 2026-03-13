@@ -135,13 +135,13 @@
     "cta": "あなたも確認してみて！"
   },
   "result": {
-    "moreTests": "もっとテストを見る",
-    "participants": "人がこのコーヒーにマッチ"
+    "moreTests": "もっと見る",
+    "participants": "{count}+人がこのコーヒーと一致しました"
   },
   "related": {
-    "mbtiCity": "MBTI 都市マッチ",
-    "mbtiLove": "MBTI 恋愛マッチ",
-    "mbtiCareer": "MBTI キャリア",
-    "emotionIceberg": "感情アイスバーグ"
+    "mbtiCity": "MBTI都市",
+    "mbtiLove": "MBTI恋愛相性",
+    "mbtiCareer": "MBTIキャリア",
+    "emotionIceberg": "感情の氷山"
   }
 }
