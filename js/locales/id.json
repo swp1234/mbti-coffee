@@ -133,5 +133,15 @@
     "copied": "Tersalin!",
     "text": "Kopi MBTI-ku adalah {coffee} ({mbti})!",
     "cta": "Temukan punyamu!"
+  },
+  "result": {
+    "moreTests": "Jelajahi Lainnya",
+    "participants": "orang cocok dengan kopi ini"
+  },
+  "related": {
+    "mbtiCity": "MBTI Kota",
+    "mbtiLove": "MBTI Cinta",
+    "mbtiCareer": "MBTI Karir",
+    "emotionIceberg": "Gunung Es Emosi"
   }
 }

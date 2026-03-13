@@ -229,5 +229,15 @@
     "copied": "Copied!",
     "text": "My MBTI coffee is {coffee} ({mbti})!",
     "cta": "Find yours!"
+  },
+  "result": {
+    "moreTests": "Explore More",
+    "participants": "people matched this coffee"
+  },
+  "related": {
+    "mbtiCity": "MBTI City Match",
+    "mbtiLove": "MBTI Love Match",
+    "mbtiCareer": "MBTI Career",
+    "emotionIceberg": "Emotion Iceberg"
   }
 }

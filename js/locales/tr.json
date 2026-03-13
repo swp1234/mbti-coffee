@@ -133,5 +133,15 @@
     "copied": "Kopyalandi!",
     "text": "MBTI kahvem {coffee} ({mbti})!",
     "cta": "Sen de kesfet!"
+  },
+  "result": {
+    "moreTests": "Daha Fazla Test",
+    "participants": "kişi bu kahveyle eşleşti"
+  },
+  "related": {
+    "mbtiCity": "MBTI Şehir Eşleşmesi",
+    "mbtiLove": "MBTI Aşk Eşleşmesi",
+    "mbtiCareer": "MBTI Kariyer",
+    "emotionIceberg": "Duygu Buzdağı"
   }
 }

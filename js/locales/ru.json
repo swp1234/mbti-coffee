@@ -133,5 +133,15 @@
     "copied": "Скопировано!",
     "text": "Мой MBTI-кофе — {coffee} ({mbti})!",
     "cta": "Узнай свой!"
+  },
+  "result": {
+    "moreTests": "Ещё тесты",
+    "participants": "человек подобрали этот кофе"
+  },
+  "related": {
+    "mbtiCity": "MBTI Город",
+    "mbtiLove": "MBTI Любовь",
+    "mbtiCareer": "MBTI Карьера",
+    "emotionIceberg": "Айсберг эмоций"
   }
 }

@@ -229,5 +229,15 @@
     "copied": "복사됨!",
     "text": "나의 MBTI 커피는 {coffee} ({mbti})!",
     "cta": "당신도 확인해보세요!"
+  },
+  "result": {
+    "moreTests": "더 많은 테스트",
+    "participants": "명이 이 커피와 매칭됐어요"
+  },
+  "related": {
+    "mbtiCity": "MBTI 도시 매칭",
+    "mbtiLove": "MBTI 연애 궁합",
+    "mbtiCareer": "MBTI 직업 매칭",
+    "emotionIceberg": "감정 빙산 테스트"
   }
 }

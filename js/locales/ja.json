@@ -133,5 +133,15 @@
     "copied": "コピーしました！",
     "text": "私のMBTIコーヒーは{coffee}（{mbti}）！",
     "cta": "あなたも確認してみて！"
+  },
+  "result": {
+    "moreTests": "もっとテストを見る",
+    "participants": "人がこのコーヒーにマッチ"
+  },
+  "related": {
+    "mbtiCity": "MBTI 都市マッチ",
+    "mbtiLove": "MBTI 恋愛マッチ",
+    "mbtiCareer": "MBTI キャリア",
+    "emotionIceberg": "感情アイスバーグ"
   }
 }

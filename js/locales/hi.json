@@ -133,5 +133,15 @@
     "copied": "कॉपी हो गया!",
     "text": "मेरी MBTI कॉफी {coffee} ({mbti}) है!",
     "cta": "अपनी भी खोजें!"
+  },
+  "result": {
+    "moreTests": "और टेस्ट देखें",
+    "participants": "लोग इस कॉफी से मैच हुए"
+  },
+  "related": {
+    "mbtiCity": "MBTI शहर मैच",
+    "mbtiLove": "MBTI प्रेम मैच",
+    "mbtiCareer": "MBTI करियर",
+    "emotionIceberg": "इमोशन आइसबर्ग"
   }
 }

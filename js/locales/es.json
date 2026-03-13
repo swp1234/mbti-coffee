@@ -133,5 +133,15 @@
     "copied": "¡Copiado!",
     "text": "Mi cafe MBTI es {coffee} ({mbti})!",
     "cta": "¡Descubre el tuyo!"
+  },
+  "result": {
+    "moreTests": "Explorar más",
+    "participants": "personas coincidieron con este café"
+  },
+  "related": {
+    "mbtiCity": "MBTI Ciudad",
+    "mbtiLove": "MBTI Amor",
+    "mbtiCareer": "MBTI Carrera",
+    "emotionIceberg": "Iceberg Emocional"
   }
 }

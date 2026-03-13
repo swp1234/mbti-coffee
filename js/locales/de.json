@@ -325,5 +325,15 @@
     "copied": "Kopiert!",
     "text": "Mein MBTI-Kaffee ist {coffee} ({mbti})!",
     "cta": "Finde deinen!"
+  },
+  "result": {
+    "moreTests": "Mehr entdecken",
+    "participants": "Personen passten zu diesem Kaffee"
+  },
+  "related": {
+    "mbtiCity": "MBTI Stadt-Match",
+    "mbtiLove": "MBTI Liebe",
+    "mbtiCareer": "MBTI Karriere",
+    "emotionIceberg": "Emotions-Eisberg"
   }
 }

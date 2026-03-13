@@ -133,5 +133,15 @@
     "copied": "已复制！",
     "text": "我的MBTI咖啡是{coffee}（{mbti}）！",
     "cta": "快来测测你的！"
+  },
+  "result": {
+    "moreTests": "探索更多",
+    "participants": "人匹配了这款咖啡"
+  },
+  "related": {
+    "mbtiCity": "MBTI 城市匹配",
+    "mbtiLove": "MBTI 恋爱匹配",
+    "mbtiCareer": "MBTI 职业匹配",
+    "emotionIceberg": "情绪冰山测试"
   }
 }
