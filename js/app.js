@@ -300,9 +300,31 @@
     }
   }
 
+  // Result carousel for start screen
+  function initResultCarousel() {
+    var carousel = document.getElementById('result-carousel');
+    if (!carousel) return;
+    var items = [
+      { mbti: 'ENFP', coffee: t('results.ENFP.name', 'Caramel Macchiato') },
+      { mbti: 'INFP', coffee: t('results.INFP.name', 'Lavender Latte') },
+      { mbti: 'INTJ', coffee: t('results.INTJ.name', 'Espresso') },
+      { mbti: 'ESFJ', coffee: t('results.ESFJ.name', 'Cappuccino') }
+    ];
+    var idx = 0;
+    function showItem() {
+      var item = items[idx];
+      carousel.innerHTML = '<div class="carousel-item">' + item.mbti + ' → ☕ ' + item.coffee + '</div>';
+      idx = (idx + 1) % items.length;
+    }
+    showItem();
+    setInterval(showItem, 3000);
+  }
+
   // Init
   function init() {
     createSteam();
+    // Delay carousel init until i18n is ready
+    setTimeout(initResultCarousel, 500);
 
     const startBtn = document.getElementById('start-btn');
     if (startBtn) {

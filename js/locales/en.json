@@ -2,9 +2,10 @@
   "meta": {
     "title": "MBTI Coffee Test - DopaBrain",
     "description": "Find the perfect coffee that matches your MBTI personality type! 8 coffee shop scenario questions reveal your coffee soulmate.",
-    "participants": "8,900+ participants",
+    "participants": "8,900+",
     "timeEstimate": "~2 min • 8 questions",
-    "previewText": "Sample:"
+    "previewText": "Sample:",
+    "participantsLabel": "participants"
   },
   "a11y": {
     "skipToContent": "Skip to content"
@@ -16,82 +17,180 @@
     "title": "MBTI Coffee Test",
     "subtitle": "Find the perfect coffee that matches your personality",
     "startDesc": "Answer 8 coffee shop scenario questions to discover your MBTI coffee match!",
-    "startBtn": "Start Test",
+    "startBtn": "Find My Coffee Match",
     "questionLabel": "Question",
     "ofLabel": "of",
-    "retryBtn": "Try Again"
+    "retryBtn": "Try Again",
+    "sampleQuestion": "Sample Question",
+    "sampleQuestionText": "You walk into a cafe. How do you order?"
   },
   "questions": {
     "q1": {
       "text": "You walk into a cafe. How do you order?",
       "options": {
-        "0": { "icon": "💬", "text": "Chat with the barista and ask for recommendations" },
-        "1": { "icon": "🎉", "text": "Come with friends and pick together loudly" },
-        "2": { "icon": "📱", "text": "Pre-order on the app and pick up quietly" },
-        "3": { "icon": "🤫", "text": "Browse the menu slowly by myself" }
+        "0": {
+          "icon": "💬",
+          "text": "Chat with the barista and ask for recommendations"
+        },
+        "1": {
+          "icon": "🎉",
+          "text": "Come with friends and pick together loudly"
+        },
+        "2": {
+          "icon": "📱",
+          "text": "Pre-order on the app and pick up quietly"
+        },
+        "3": {
+          "icon": "🤫",
+          "text": "Browse the menu slowly by myself"
+        }
       }
     },
     "q2": {
       "text": "What kind of cafe vibe do you prefer?",
       "options": {
-        "0": { "icon": "🪵", "text": "Wooden tables, warm lights — classic cafe" },
-        "1": { "icon": "🏠", "text": "Cozy, comfortable neighborhood cafe" },
-        "2": { "icon": "🎨", "text": "Unique interior concept cafe" },
-        "3": { "icon": "🌿", "text": "Plant-filled cafe with natural light" }
+        "0": {
+          "icon": "🪵",
+          "text": "Wooden tables, warm lights — classic cafe"
+        },
+        "1": {
+          "icon": "🏠",
+          "text": "Cozy, comfortable neighborhood cafe"
+        },
+        "2": {
+          "icon": "🎨",
+          "text": "Unique interior concept cafe"
+        },
+        "3": {
+          "icon": "🌿",
+          "text": "Plant-filled cafe with natural light"
+        }
       }
     },
     "q3": {
       "text": "What matters most when choosing coffee?",
       "options": {
-        "0": { "icon": "📊", "text": "Caffeine content and efficiency" },
-        "1": { "icon": "💰", "text": "Value for money — best bang for the buck" },
-        "2": { "icon": "💕", "text": "Whatever flavor matches my mood" },
-        "3": { "icon": "🎁", "text": "Beautiful presentation and aesthetics" }
+        "0": {
+          "icon": "📊",
+          "text": "Caffeine content and efficiency"
+        },
+        "1": {
+          "icon": "💰",
+          "text": "Value for money — best bang for the buck"
+        },
+        "2": {
+          "icon": "💕",
+          "text": "Whatever flavor matches my mood"
+        },
+        "3": {
+          "icon": "🎁",
+          "text": "Beautiful presentation and aesthetics"
+        }
       }
     },
     "q4": {
       "text": "What's your coffee routine like?",
       "options": {
-        "0": { "icon": "⏰", "text": "Same time, same coffee, every day" },
-        "1": { "icon": "📋", "text": "I plan my cafe visits for the week" },
-        "2": { "icon": "🎲", "text": "Totally spontaneous — depends on the mood" },
-        "3": { "icon": "🌊", "text": "Go with the flow, no plans" }
+        "0": {
+          "icon": "⏰",
+          "text": "Same time, same coffee, every day"
+        },
+        "1": {
+          "icon": "📋",
+          "text": "I plan my cafe visits for the week"
+        },
+        "2": {
+          "icon": "🎲",
+          "text": "Totally spontaneous — depends on the mood"
+        },
+        "3": {
+          "icon": "🌊",
+          "text": "Go with the flow, no plans"
+        }
       }
     },
     "q5": {
       "text": "Who do you want to drink coffee with?",
       "options": {
-        "0": { "icon": "👥", "text": "Cafe tour with a group of friends!" },
-        "1": { "icon": "🤝", "text": "At a meetup with new people" },
-        "2": { "icon": "👤", "text": "Alone, in my own quiet time" },
-        "3": { "icon": "💑", "text": "With my one best friend" }
+        "0": {
+          "icon": "👥",
+          "text": "Cafe tour with a group of friends!"
+        },
+        "1": {
+          "icon": "🤝",
+          "text": "At a meetup with new people"
+        },
+        "2": {
+          "icon": "👤",
+          "text": "Alone, in my own quiet time"
+        },
+        "3": {
+          "icon": "💑",
+          "text": "With my one best friend"
+        }
       }
     },
     "q6": {
       "text": "A new menu item just dropped at the cafe!",
       "options": {
-        "0": { "icon": "✅", "text": "Check the reviews first" },
-        "1": { "icon": "🔍", "text": "Look into the ingredients and origin carefully" },
-        "2": { "icon": "🚀", "text": "Order it right away! I love trying new things" },
-        "3": { "icon": "💭", "text": "If the name and description inspire me, I'll try it" }
+        "0": {
+          "icon": "✅",
+          "text": "Check the reviews first"
+        },
+        "1": {
+          "icon": "🔍",
+          "text": "Look into the ingredients and origin carefully"
+        },
+        "2": {
+          "icon": "🚀",
+          "text": "Order it right away! I love trying new things"
+        },
+        "3": {
+          "icon": "💭",
+          "text": "If the name and description inspire me, I'll try it"
+        }
       }
     },
     "q7": {
       "text": "Your friend recommends a bad coffee. What do you do?",
       "options": {
-        "0": { "icon": "📝", "text": "Give them an honest taste review" },
-        "1": { "icon": "🔬", "text": "Analyze and explain why it doesn't taste good" },
-        "2": { "icon": "😊", "text": "Say thanks and change the subject" },
-        "3": { "icon": "💝", "text": "Drink it together since they like it" }
+        "0": {
+          "icon": "📝",
+          "text": "Give them an honest taste review"
+        },
+        "1": {
+          "icon": "🔬",
+          "text": "Analyze and explain why it doesn't taste good"
+        },
+        "2": {
+          "icon": "😊",
+          "text": "Say thanks and change the subject"
+        },
+        "3": {
+          "icon": "💝",
+          "text": "Drink it together since they like it"
+        }
       }
     },
     "q8": {
       "text": "You discover a cafe while traveling!",
       "options": {
-        "0": { "icon": "📍", "text": "Head to the one I researched beforehand" },
-        "1": { "icon": "⭐", "text": "Search for the highest-rated nearby" },
-        "2": { "icon": "🚶", "text": "Just walk in wherever looks interesting" },
-        "3": { "icon": "🎵", "text": "Pick the one with good vibes or music" }
+        "0": {
+          "icon": "📍",
+          "text": "Head to the one I researched beforehand"
+        },
+        "1": {
+          "icon": "⭐",
+          "text": "Search for the highest-rated nearby"
+        },
+        "2": {
+          "icon": "🚶",
+          "text": "Just walk in wherever looks interesting"
+        },
+        "3": {
+          "icon": "🎵",
+          "text": "Pick the one with good vibes or music"
+        }
       }
     }
   },

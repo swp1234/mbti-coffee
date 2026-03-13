@@ -122,15 +122,32 @@
       <section id="start-screen" class="screen active">
         <div class="hero">
           <div class="hero-icon">&#9749;</div>
-          <div class="social-proof" data-i18n="meta.participants">8,900+ participants</div>
+          <div class="social-proof-badge">
+            <div>
+              <div class="social-proof-count" data-i18n="meta.participants">8,900+</div>
+              <div class="social-proof-label" data-i18n="meta.participantsLabel">participants</div>
+            </div>
+            <div>
+              <div class="social-proof-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="social-proof-label">4.4 / 5.0</div>
+            </div>
+          </div>
           <h1 data-i18n="app.title">MBTI Coffee Test</h1>
           <p class="subtitle" data-i18n="app.subtitle">Find the perfect coffee that matches your personality</p>
           <p class="time-estimate" data-i18n="meta.timeEstimate">~2 min • 8 questions</p>
-          <div class="result-preview"><span data-i18n="meta.previewText">Sample:</span> <strong>INFP → ☕ Vanilla Latte</strong></div>
+          <div class="result-carousel" id="result-carousel"></div>
         </div>
         <div class="card" style="text-align:center">
           <p style="margin-bottom:16px;color:var(--text-muted)" data-i18n="app.startDesc">Answer 8 coffee shop scenario questions to discover your MBTI coffee match!</p>
-          <button id="start-btn" class="btn btn-primary" data-i18n="app.startBtn">Start Test</button>
+          <div class="sample-question-preview">
+            <div class="sample-q-label" data-i18n="app.sampleQuestion">Sample Question</div>
+            <div class="sample-q-text" data-i18n="app.sampleQuestionText">You walk into a cafe. How do you order?</div>
+            <div class="sample-q-options">
+              <div class="sample-q-option">&#128172; Chat with the barista...</div>
+              <div class="sample-q-option">&#128241; Pre-order on the app...</div>
+            </div>
+          </div>
+          <button id="start-btn" class="btn btn-primary" data-i18n="app.startBtn">Find My Coffee Match</button>
         </div>
       </section>
 
