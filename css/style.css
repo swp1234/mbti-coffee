@@ -399,9 +399,14 @@ body {
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   color: #fff;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 16px;
   font-size: 1.1rem;
   box-shadow: 0 4px 20px var(--primary-glow);
+  animation: ctaPulse 2s ease-in-out 1s 3;
+}
+@keyframes ctaPulse {
+  0%, 100% { box-shadow: 0 4px 20px var(--primary-glow); }
+  50% { box-shadow: 0 0 0 12px transparent, 0 4px 30px var(--primary-glow); }
 }
 .btn-primary:hover { box-shadow: 0 6px 30px var(--primary-glow); }
 .btn-secondary {
@@ -479,11 +484,14 @@ body {
 
 @media (max-width: 640px) {
   .steam:nth-child(n+4) { display: none; }
-  .hero { padding: 24px 0 16px; }
-  .hero-icon { font-size: 48px; margin-bottom: 8px; }
-  .hero h1 { font-size: 1.6rem; margin-bottom: 8px; }
-  .social-proof-badge { padding: 6px 14px; margin-bottom: 10px; }
-  .social-proof-count { font-size: 1rem; }
+  .hero { padding: 16px 0 8px; }
+  .hero-icon { font-size: 40px; margin-bottom: 6px; }
+  .hero h1 { font-size: 1.5rem; margin-bottom: 6px; }
+  .subtitle { font-size: 0.9rem; }
+  .social-proof-badge { padding: 4px 12px; margin-bottom: 8px; }
+  .social-proof-count { font-size: 0.9rem; }
+  .sample-question-preview { display: none; }
+  .result-carousel { margin-top: 8px; }
 }
 
 @media (max-width: 360px) {
