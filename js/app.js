@@ -131,6 +131,18 @@
     });
   }
 
+  // Show mid-quiz encouragement at halfway point
+  function showMidQuizEncouragement() {
+    const container = document.getElementById('question-container');
+    if (!container) { renderQuestion(); return; }
+    const msg = t('app.midQuiz', 'Halfway there! Your coffee match is brewing...');
+    container.innerHTML = '<div style="text-align:center;padding:32px 16px;"><div style="font-size:48px;margin-bottom:16px;">&#9749;</div><p style="font-size:1.1rem;font-weight:600;color:var(--primary-light);">' + msg + '</p></div>';
+    container.classList.remove('question-card');
+    void container.offsetWidth;
+    container.classList.add('question-card');
+    setTimeout(renderQuestion, 2500);
+  }
+
   // Handle answer selection
   function handleAnswer(btn) {
     const side = btn.dataset.side;
@@ -144,6 +156,8 @@
       currentQuestion++;
       if (currentQuestion >= totalQuestions) {
         showResult();
+      } else if (currentQuestion === 4) {
+        showMidQuizEncouragement();
       } else {
         renderQuestion();
       }

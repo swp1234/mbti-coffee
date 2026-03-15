@@ -477,6 +477,15 @@ body {
   .question-text { font-size: 1.3rem; }
 }
 
+@media (max-width: 640px) {
+  .steam:nth-child(n+4) { display: none; }
+  .hero { padding: 24px 0 16px; }
+  .hero-icon { font-size: 48px; margin-bottom: 8px; }
+  .hero h1 { font-size: 1.6rem; margin-bottom: 8px; }
+  .social-proof-badge { padding: 6px 14px; margin-bottom: 10px; }
+  .social-proof-count { font-size: 1rem; }
+}
+
 @media (max-width: 360px) {
   .share-btn span { display: none; }
   .share-btn { padding: 10px; }
@@ -591,8 +600,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  filter: blur(3px);
-  opacity: 0.5;
   pointer-events: none;
   user-select: none;
 }
@@ -603,6 +610,13 @@ body {
   border: 1px solid var(--border);
   font-size: 0.8rem;
   color: var(--text-muted);
+}
+
+/* Mid-quiz encouragement */
+.mid-quiz-msg {
+  text-align: center;
+  padding: 32px 16px;
+  animation: fadeInUp 0.4s ease;
 }
 
 /* About / Collapsible Section */
