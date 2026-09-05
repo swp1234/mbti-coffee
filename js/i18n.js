@@ -13,8 +13,10 @@
       async init() {
         try {
           const browserLang = (navigator.language || '').slice(0, 2).toLowerCase();
+          const urlLang = new URLSearchParams(location.search).get('lang') || '';
           const saved = localStorage.getItem('preferred-lang');
-          this.currentLang = saved && SUPPORTED_LANGS.includes(saved) ? saved
+          this.currentLang = urlLang && SUPPORTED_LANGS.includes(urlLang) ? urlLang
+            : saved && SUPPORTED_LANGS.includes(saved) ? saved
             : SUPPORTED_LANGS.includes(browserLang) ? browserLang
             : DEFAULT_LANG;
           await this.loadTranslations(this.currentLang);
@@ -29,7 +31,7 @@
 
       async loadTranslations(lang) {
         try {
-          const res = await fetch(`js/locales/${lang}.json`);
+          const res = await fetch(`js/locales/${lang}.json?v=20260905-1`);
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           this.translations = await res.json();
         } catch (e) {
@@ -63,6 +65,8 @@
             }
           }
         });
+        const select = document.getElementById('lang-select');
+        if (select) select.value = this.currentLang;
       },
 
       async switchLang(lang) {
@@ -72,6 +76,7 @@
         await this.loadTranslations(lang);
         this.applyTranslations();
         document.documentElement.lang = lang;
+        if (typeof window.onLanguageChange === 'function') window.onLanguageChange(lang);
       }
     };
 

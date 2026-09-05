@@ -1,22 +1,22 @@
-const CACHE_NAME = 'mbti-coffee-v1';
+const CACHE_NAME = 'mbti-coffee-v2';
 const ASSETS = [
   '/mbti-coffee/',
   '/mbti-coffee/index.html',
-  '/mbti-coffee/css/style.css',
-  '/mbti-coffee/js/app.js',
-  '/mbti-coffee/js/i18n.js',
-  '/mbti-coffee/js/locales/ko.json',
-  '/mbti-coffee/js/locales/en.json',
-  '/mbti-coffee/js/locales/ja.json',
-  '/mbti-coffee/js/locales/zh.json',
-  '/mbti-coffee/js/locales/hi.json',
-  '/mbti-coffee/js/locales/ru.json',
-  '/mbti-coffee/js/locales/es.json',
-  '/mbti-coffee/js/locales/pt.json',
-  '/mbti-coffee/js/locales/id.json',
-  '/mbti-coffee/js/locales/tr.json',
-  '/mbti-coffee/js/locales/de.json',
-  '/mbti-coffee/js/locales/fr.json',
+  '/mbti-coffee/css/style.css?v=20260905-1',
+  '/mbti-coffee/js/app.js?v=20260905-1',
+  '/mbti-coffee/js/i18n.js?v=20260905-1',
+  '/mbti-coffee/js/locales/ko.json?v=20260905-1',
+  '/mbti-coffee/js/locales/en.json?v=20260905-1',
+  '/mbti-coffee/js/locales/ja.json?v=20260905-1',
+  '/mbti-coffee/js/locales/zh.json?v=20260905-1',
+  '/mbti-coffee/js/locales/hi.json?v=20260905-1',
+  '/mbti-coffee/js/locales/ru.json?v=20260905-1',
+  '/mbti-coffee/js/locales/es.json?v=20260905-1',
+  '/mbti-coffee/js/locales/pt.json?v=20260905-1',
+  '/mbti-coffee/js/locales/id.json?v=20260905-1',
+  '/mbti-coffee/js/locales/tr.json?v=20260905-1',
+  '/mbti-coffee/js/locales/de.json?v=20260905-1',
+  '/mbti-coffee/js/locales/fr.json?v=20260905-1',
   '/mbti-coffee/manifest.json',
 ];
 
@@ -37,7 +37,7 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  if (!event.request.url.startsWith(self.location.origin)) return;
+  if (event.request.method !== 'GET' || !event.request.url.startsWith(self.location.origin)) return;
   event.respondWith(
     caches.match(event.request).then(cached => {
       const fetched = fetch(event.request).then(response => {

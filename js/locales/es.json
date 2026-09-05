@@ -1,11 +1,7 @@
 {
   "meta": {
-    "title": "Test MBTI de Café Gratis - DopaBrain",
-    "description": "¿Qué café coincide con tu MBTI? Test gratis con 8 escenarios de cafetería. ¡Descubre tu café!",
-    "participants": "8.900+",
-    "timeEstimate": "~2 min • 8 preguntas",
-    "previewText": "Ejemplo:",
-    "participantsLabel": "participantes"
+    "title": "Reflexión de código de café",
+    "description": "Elige respuestas en ocho escenas de cafetería y descubre una asociación lúdica."
   },
   "a11y": {
     "skipToContent": "Saltar al contenido"
@@ -14,15 +10,13 @@
     "loading": "Cargando..."
   },
   "app": {
-    "title": "Test MBTI de Café - Tu café personalidad",
-    "subtitle": "Encuentra el cafe perfecto para tu personalidad",
-    "startDesc": "Responde 8 preguntas sobre escenarios en cafeterias y descubre tu cafe MBTI!",
-    "startBtn": "Encuentra tu café",
-    "questionLabel": "Pregunta",
-    "ofLabel": "de",
-    "retryBtn": "Intentar de nuevo",
-    "sampleQuestion": "Pregunta de ejemplo",
-    "sampleQuestionText": "Entras en una cafetería. ¿Cómo pides?"
+    "title": "Reflexión de código de café",
+    "subtitle": "Elige por diversión en ocho escenas de cafetería.",
+    "method": "Método: dos preguntas por pareja de letras. Las opciones suman 2, 1, 2, 1 puntos al lado indicado; los empates usan E, S, T y J.",
+    "mapping": "El código de cuatro letras se asocia con uno de 16 cafés mediante una tabla fija creada.",
+    "boundary": "Esta página de entretenimiento no es la evaluación MBTI oficial y no determina personalidad ni preferencia de café.",
+    "source": "Resumen oficial del marco y diferencia con la evaluación",
+    "startBtn": "Iniciar el juego de café"
   },
   "questions": {
     "q1": {
@@ -196,154 +190,68 @@
   },
   "results": {
     "INTJ": {
-      "name": "Espresso",
-      "tagline": "Intenso, eficiente y atractivamente amargo",
-      "description": "Como un espresso, eres pura energia concentrada. Eliminas lo innecesario y conservas lo esencial. Un sorbo, una impresion duradera."
+      "name": "Espresso"
     },
     "ENFP": {
-      "name": "Caramel Macchiato",
-      "tagline": "Dulce, colorido y lleno de energia",
-      "description": "Como un caramel macchiato, combinas dulzura y energia sin esfuerzo. Con capas de sabores diferentes, llevas tu encanto unico a todas partes."
+      "name": "Caramel Macchiato"
     },
     "ISTJ": {
-      "name": "Americano",
-      "tagline": "Clasico, estable y siempre confiable",
-      "description": "Como un americano, eres un icono de confiabilidad. No llamativo, pero siempre ahi haciendo lo que debe hacerse. La constancia es tu mayor fortaleza."
+      "name": "Americano"
     },
     "INFP": {
-      "name": "Latte de Lavanda",
-      "tagline": "Unico, sonador y delicado",
-      "description": "Como un latte de lavanda, eres unico en el mundo. Tu sutil esencia floral toca los corazones en silencio, y tu rico mundo interior no conoce limites."
+      "name": "Latte de Lavanda"
     },
     "ENTP": {
-      "name": "Flat White Doble",
-      "tagline": "Audaz, experimental y agudo",
-      "description": "Como un flat white doble, eres intenso y refinado. Amas romper moldes y brillar en debates y lluvias de ideas."
+      "name": "Flat White Doble"
     },
     "ISFJ": {
-      "name": "Latte de Vainilla",
-      "tagline": "Calido, reconfortante y muy atento",
-      "description": "Como un latte de vainilla, haces que todos se sientan comodos. Dulce y suave, cuidas discretamente a quienes te rodean."
+      "name": "Latte de Vainilla"
     },
     "ENTJ": {
-      "name": "Cold Brew",
-      "tagline": "Poderoso, orientado a metas y limpio",
-      "description": "Como un cold brew, pareces frio por fuera pero ardes por dentro. Larga extraccion para sabor profundo — tu planificacion y ejecucion son incomparables."
+      "name": "Cold Brew"
     },
     "INFJ": {
-      "name": "Chai Latte",
-      "tagline": "Profundo, complejo y mistico",
-      "description": "Como un chai latte, eres una mezcla compleja de muchas especias. Suave en la superficie pero con profunda perspicacia y pasion interior."
+      "name": "Chai Latte"
     },
     "ESTP": {
-      "name": "Americano Helado",
-      "tagline": "Cool, energico y espontaneo",
-      "description": "Como un americano helado, te mantienes cool en cualquier situacion. Sin importar la temporada, vives a tu manera."
+      "name": "Americano Helado"
     },
     "ISFP": {
-      "name": "Matcha Latte",
-      "tagline": "Artistico, natural y sensorial",
-      "description": "Como un matcha latte, posees belleza natural. Con tu unico sentido estetico, construyes silenciosamente tu propio mundo de arte."
+      "name": "Matcha Latte"
     },
     "ESTJ": {
-      "name": "Cafe de Goteo",
-      "tagline": "Practico, tradicional y lider nato",
-      "description": "Como un cafe de goteo, sigues el proceso con precision logrando los mejores resultados. Ejecucion sistematica y precisa es tu estilo."
+      "name": "Cafe de Goteo"
     },
     "INTP": {
-      "name": "Cafe Turco",
-      "tagline": "Intelectual, unico y profundo",
-      "description": "Como un cafe turco, creas sabor profundo con metodos poco convencionales. Ves el mundo de manera diferente y disfrutas resolver problemas complejos."
+      "name": "Cafe Turco"
     },
     "ESFP": {
-      "name": "Frappuccino",
-      "tagline": "Fiesta, glamour y alegria",
-      "description": "Como un frappuccino, eres colorido y lleno de alegria. Con crema batida y jarabe de encanto, haces sonreir a todos."
+      "name": "Frappuccino"
     },
     "ISTP": {
-      "name": "Long Black",
-      "tagline": "Minimalista, independiente y funcional",
-      "description": "Como un long black, te enfocas en la esencia sin adornos. Funcionas perfectamente solo y tomas solo lo necesario."
+      "name": "Long Black"
     },
     "ESFJ": {
-      "name": "Cappuccino",
-      "tagline": "Social, calido y armonioso",
-      "description": "Como un cappuccino, eres la mezcla perfecta de espuma suave y cafe intenso. En el centro de cada reunion, haces que todos se sientan comodos."
+      "name": "Cappuccino"
     },
     "ENFJ": {
-      "name": "Mocha",
-      "tagline": "Apasionado, inclusivo, dulce y fuerte",
-      "description": "Como un mocha, combinas la dulzura del chocolate con la intensidad del espresso. Con calido carisma, lideras y ayudas a todos a brillar."
+      "name": "Mocha"
     }
   },
-  "traits": {
-    "intense": "Intenso",
-    "efficient": "Eficiente",
-    "bold": "Audaz",
-    "sweet": "Dulce",
-    "colorful": "Colorido",
-    "energetic": "Energico",
-    "classic": "Clasico",
-    "stable": "Estable",
-    "consistent": "Constante",
-    "unique": "Unico",
-    "dreamy": "Sonador",
-    "gentle": "Delicado",
-    "experimental": "Experimental",
-    "sharp": "Agudo",
-    "warm": "Calido",
-    "comforting": "Reconfortante",
-    "caring": "Atento",
-    "powerful": "Poderoso",
-    "goalDriven": "Orientado a metas",
-    "clean": "Limpio",
-    "deep": "Profundo",
-    "complex": "Complejo",
-    "mystical": "Mistico",
-    "cool": "Cool",
-    "spontaneous": "Espontaneo",
-    "artistic": "Artistico",
-    "natural": "Natural",
-    "sensory": "Sensorial",
-    "practical": "Practico",
-    "traditional": "Tradicional",
-    "leader": "Lider",
-    "intellectual": "Intelectual",
-    "profound": "Profundo",
-    "party": "Fiesta",
-    "glamorous": "Glamuroso",
-    "joyful": "Alegre",
-    "minimal": "Minimalista",
-    "independent": "Independiente",
-    "functional": "Funcional",
-    "social": "Social",
-    "harmonious": "Armonioso",
-    "passionate": "Apasionado",
-    "inclusive": "Inclusivo",
-    "sweetStrong": "Dulce+Fuerte"
+  "result": {
+    "kicker": "Tu asociación del juego",
+    "mapping": "En este juego creado, {code} se asocia con {coffee}.",
+    "boundary": "Son etiquetas de entretenimiento, no un resultado de personalidad o preferencia.",
+    "nextTitle": "Elige un siguiente paso",
+    "guideAction": "Ver guías culturales MBTI",
+    "loveAction": "Probar las tarjetas de conversación",
+    "retry": "Jugar de nuevo"
   },
   "share": {
-    "title": "Comparte tus resultados",
-    "copyLink": "Copiar enlace",
-    "copied": "¡Copiado!",
-    "text": "Mi cafe MBTI es {coffee} ({mbti})!",
-    "cta": "¡Descubre el tuyo!"
-  },
-  "result": {
-    "moreTests": "Explorar más",
-    "participants": "{count}+ personas coincidieron con este café"
-  },
-  "related": {
-    "mbtiCity": "Ciudad MBTI",
-    "mbtiLove": "Compatibilidad MBTI",
-    "mbtiCareer": "Carrera MBTI",
-    "emotionIceberg": "Iceberg emocional"
-  },
-  "about": {
-    "toggle": "Acerca del test",
-    "heading1": "Cómo funciona el test de café MBTI",
-    "text1": "El test analiza tu personalidad a través de 8 preguntas de escenarios de cafetería. Según tus respuestas, se te asigna uno de 16 cafés que mejor refleja tus rasgos.",
-    "heading2": "Qué dice tu café sobre ti",
-    "text2": "Tu café asignado revela información sobre tu estilo de energía, preferencias sociales y forma de tomar decisiones."
+    "title": "Compartir el juego",
+    "button": "Compartir enlace neutral",
+    "text": "Prueba esta reflexión de café con ocho escenas.",
+    "success": "Enlace copiado.",
+    "unavailable": "No se puede compartir."
   }
 }

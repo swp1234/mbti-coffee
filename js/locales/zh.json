@@ -1,11 +1,7 @@
 {
   "meta": {
-    "title": "免费MBTI咖啡匹配测试 - DopaBrain",
-    "description": "哪种咖啡符合你的MBTI性格？免费在线测试，8个咖啡店场景题。立即尝试！",
-    "participants": "8,900+",
-    "timeEstimate": "~2分钟 • 8个问题",
-    "previewText": "示例：",
-    "participantsLabel": "人参与"
+    "title": "咖啡代码反思",
+    "description": "在八个咖啡馆场景中选择回答，查看趣味咖啡映射。"
   },
   "a11y": {
     "skipToContent": "跳至正文"
@@ -14,15 +10,13 @@
     "loading": "加载中..."
   },
   "app": {
-    "title": "MBTI咖啡匹配测试 - 你的性格咖啡",
-    "subtitle": "找到与你性格完美匹配的咖啡",
-    "startDesc": "回答8个咖啡馆场景问题，发现属于你的MBTI咖啡！",
-    "startBtn": "找到我的专属咖啡",
-    "questionLabel": "问题",
-    "ofLabel": "/",
-    "retryBtn": "再试一次",
-    "sampleQuestion": "示例问题",
-    "sampleQuestionText": "你走进一家咖啡店，怎么点单？"
+    "title": "咖啡代码反思",
+    "subtitle": "在八个咖啡馆场景中轻松选择。",
+    "method": "方法：每个字母对有两题。选项向所示一侧加2、1、2、1分；平分时依次采用E、S、T、J。",
+    "mapping": "四字母代码通过固定的创作表映射到16种咖啡之一。",
+    "boundary": "本娱乐页面不是官方MBTI评估，不能判断性格或咖啡偏好。",
+    "source": "官方框架概述与评估区别",
+    "startBtn": "开始咖啡游戏"
   },
   "questions": {
     "q1": {
@@ -196,154 +190,68 @@
   },
   "results": {
     "INTJ": {
-      "name": "浓缩咖啡",
-      "tagline": "强烈、高效、苦涩中的魅力",
-      "description": "像浓缩咖啡一样，你是浓缩能量的拥有者。去除不必要的，只留核心。一口就能留下强烈印象的你，浓缩咖啡是你独处时完美的伙伴。"
+      "name": "浓缩咖啡"
     },
     "ENFP": {
-      "name": "焦糖玛奇朵",
-      "tagline": "甜蜜、多彩、充满活力",
-      "description": "像焦糖玛奇朵一样，你是甜蜜与活力并存的人。层层不同的风味如同你多彩的魅力，无论走到哪里都能点亮氛围。"
+      "name": "焦糖玛奇朵"
     },
     "ISTJ": {
-      "name": "美式咖啡",
-      "tagline": "经典、稳定、始终如一",
-      "description": "像美式咖啡一样，你是不变的信赖象征。不张扬但始终在岗位上默默尽责。坚持不懈是你最大的优点。"
+      "name": "美式咖啡"
     },
     "INFP": {
-      "name": "薰衣草拿铁",
-      "tagline": "独特、梦幻、温柔",
-      "description": "像薰衣草拿铁一样，你是世界上独一无二的特别存在。柔和的花香般悄悄触动人心，拥有丰富的内心世界。"
+      "name": "薰衣草拿铁"
     },
     "ENTP": {
-      "name": "双份浓缩馥芮白",
-      "tagline": "大胆、实验性、锐利",
-      "description": "像双份浓缩馥芮白一样，你强烈而又精致。热爱打破常规，在辩论和头脑风暴中闪耀。"
+      "name": "双份浓缩馥芮白"
     },
     "ISFJ": {
-      "name": "香草拿铁",
-      "tagline": "温暖、舒适、体贴入微",
-      "description": "像香草拿铁一样，你让每个人都感到舒适。甜蜜顺滑，默默关照身边的人。"
+      "name": "香草拿铁"
     },
     "ENTJ": {
-      "name": "冷萃咖啡",
-      "tagline": "强大、目标导向、干净利落",
-      "description": "像冷萃咖啡一样，你外表冷静内心强烈。长时间慢慢萃取的深沉风味，就像你的规划和执行力无人能及。"
+      "name": "冷萃咖啡"
     },
     "INFJ": {
-      "name": "印度奶茶拿铁",
-      "tagline": "深邃、复杂、神秘",
-      "description": "像印度奶茶拿铁一样，你是多种香料融合的复杂之人。表面温和，内心藏着深刻的洞察与热情。"
+      "name": "印度奶茶拿铁"
     },
     "ESTP": {
-      "name": "冰美式",
-      "tagline": "酷、充满活力、随性",
-      "description": "像冰美式一样，你在任何情况下都很酷。不管什么季节都选冰的，不看别人眼色坚持自己的风格。"
+      "name": "冰美式"
     },
     "ISFP": {
-      "name": "抹茶拿铁",
-      "tagline": "艺术的、自然的、感性的",
-      "description": "像抹茶拿铁一样，你拥有自然之美。鲜明的绿色代表你独特的审美和艺术感，静静地构建自己的世界。"
+      "name": "抹茶拿铁"
     },
     "ESTJ": {
-      "name": "手冲咖啡",
-      "tagline": "务实、传统、天生领导者",
-      "description": "像手冲咖啡一样，你严格遵循流程同时产出最佳成果。系统化和精确执行是你的风格。"
+      "name": "手冲咖啡"
     },
     "INTP": {
-      "name": "土耳其咖啡",
-      "tagline": "智慧、独特、深邃",
-      "description": "像土耳其咖啡一样，你用独特方法创造深邃风味。以不同视角观察世界，享受解决复杂问题的过程。"
+      "name": "土耳其咖啡"
     },
     "ESFP": {
-      "name": "星冰乐",
-      "tagline": "派对、华丽、快乐",
-      "description": "像星冰乐一样，你华丽而快乐。用奶油和糖浆般丰富的魅力让周围人开心，到哪都是派对中心。"
+      "name": "星冰乐"
     },
     "ISTP": {
-      "name": "长黑咖啡",
-      "tagline": "极简、独立、功能性",
-      "description": "像长黑咖啡一样，你专注本质不添多余。独自也能完美运转，只取所需。安静但强大。"
+      "name": "长黑咖啡"
     },
     "ESFJ": {
-      "name": "卡布奇诺",
-      "tagline": "善社交、温暖、和谐",
-      "description": "像卡布奇诺一样，你是顺滑奶泡与浓郁咖啡的完美融合。在聚会中心让每个人都舒适自在。"
+      "name": "卡布奇诺"
     },
     "ENFJ": {
-      "name": "摩卡",
-      "tagline": "热情、包容、甜蜜又强大",
-      "description": "像摩卡一样，你兼具巧克力的甜蜜和浓缩咖啡的强烈。用温暖的魅力引领人们，帮助每个人绽放独特光彩。"
+      "name": "摩卡"
     }
   },
-  "traits": {
-    "intense": "强烈",
-    "efficient": "高效",
-    "bold": "大胆",
-    "sweet": "甜蜜",
-    "colorful": "多彩",
-    "energetic": "活力",
-    "classic": "经典",
-    "stable": "稳定",
-    "consistent": "始终如一",
-    "unique": "独特",
-    "dreamy": "梦幻",
-    "gentle": "温柔",
-    "experimental": "实验性",
-    "sharp": "锐利",
-    "warm": "温暖",
-    "comforting": "舒适",
-    "caring": "体贴",
-    "powerful": "强大",
-    "goalDriven": "目标导向",
-    "clean": "干净",
-    "deep": "深邃",
-    "complex": "复杂",
-    "mystical": "神秘",
-    "cool": "酷",
-    "spontaneous": "随性",
-    "artistic": "艺术的",
-    "natural": "自然的",
-    "sensory": "感性的",
-    "practical": "务实",
-    "traditional": "传统",
-    "leader": "领导者",
-    "intellectual": "智慧",
-    "profound": "深邃",
-    "party": "派对",
-    "glamorous": "华丽",
-    "joyful": "快乐",
-    "minimal": "极简",
-    "independent": "独立",
-    "functional": "功能性",
-    "social": "社交",
-    "harmonious": "和谐",
-    "passionate": "热情",
-    "inclusive": "包容",
-    "sweetStrong": "甜蜜+强大"
+  "result": {
+    "kicker": "你的游戏映射",
+    "mapping": "在这个创作游戏中，{code}映射为{coffee}。",
+    "boundary": "这些只是娱乐标签，不是性格或偏好结果。",
+    "nextTitle": "选择一个下一步",
+    "guideAction": "浏览MBTI文化指南",
+    "loveAction": "尝试关系对话卡",
+    "retry": "再玩一次"
   },
   "share": {
-    "title": "分享你的结果",
-    "copyLink": "复制链接",
-    "copied": "已复制！",
-    "text": "我的MBTI咖啡是{coffee}（{mbti}）！",
-    "cta": "快来测测你的！"
-  },
-  "result": {
-    "moreTests": "探索更多",
-    "participants": "{count}+人匹配了这杯咖啡"
-  },
-  "related": {
-    "mbtiCity": "MBTI城市",
-    "mbtiLove": "MBTI恋爱匹配",
-    "mbtiCareer": "MBTI职业",
-    "emotionIceberg": "情感冰山"
-  },
-  "about": {
-    "toggle": "关于本测试",
-    "heading1": "MBTI咖啡匹配测试如何运作",
-    "text1": "MBTI咖啡匹配测试通过8个咖啡店场景问题分析你的性格。每个问题评估MBTI的四个维度之一。根据回答，匹配16种咖啡中最能反映你性格特征的一种。",
-    "heading2": "咖啡匹配结果告诉你什么",
-    "text2": "匹配的咖啡揭示了你的能量风格、社交偏好和决策方式。"
+    "title": "分享咖啡游戏",
+    "button": "分享中性链接",
+    "text": "试试这个八场景咖啡代码游戏。",
+    "success": "链接已复制。",
+    "unavailable": "无法分享。"
   }
 }

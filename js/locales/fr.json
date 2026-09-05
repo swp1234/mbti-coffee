@@ -1,11 +1,7 @@
 {
   "meta": {
-    "title": "Test MBTI Café Gratuit - DopaBrain",
-    "description": "Quel café correspond à votre MBTI ? Test gratuit avec 8 scénarios de café !",
-    "participants": "8 900+",
-    "timeEstimate": "~2 min • 8 questions",
-    "previewText": "Exemple :",
-    "participantsLabel": "participants"
+    "title": "Réflexion code café",
+    "description": "Choisissez vos réactions dans huit scènes de café et découvrez une association ludique."
   },
   "a11y": {
     "skipToContent": "Aller au contenu"
@@ -14,15 +10,13 @@
     "loading": "Chargement..."
   },
   "app": {
-    "title": "Test MBTI Café - Votre café personnalité",
-    "subtitle": "Trouvez le cafe parfait pour votre personnalite",
-    "startDesc": "Repondez a 8 questions et decouvrez votre cafe MBTI !",
-    "startBtn": "Trouver mon café",
-    "questionLabel": "Question",
-    "ofLabel": "sur",
-    "retryBtn": "Recommencer",
-    "sampleQuestion": "Exemple de question",
-    "sampleQuestionText": "Tu entres dans un café. Comment passes-tu commande ?"
+    "title": "Réflexion code café",
+    "subtitle": "Choisissez pour le plaisir dans huit scènes de café.",
+    "method": "Méthode : deux questions par paire de lettres. Les options donnent 2, 1, 2, 1 points au côté indiqué ; les égalités suivent E, S, T puis J.",
+    "mapping": "Le code de quatre lettres est associé à un café parmi 16 par une table fixe et créée.",
+    "boundary": "Cette page de divertissement n’est pas l’évaluation MBTI officielle et ne détermine ni personnalité ni préférence de café.",
+    "source": "Présentation officielle du cadre et distinction de l’évaluation",
+    "startBtn": "Commencer le jeu café"
   },
   "questions": {
     "q1": {
@@ -196,154 +190,68 @@
   },
   "results": {
     "INTJ": {
-      "name": "Espresso",
-      "tagline": "Intense, efficace et merveilleusement amer",
-      "description": "Comme un espresso, vous etes un concentre energie. Une gorgee — une impression durable."
+      "name": "Espresso"
     },
     "ENFP": {
-      "name": "Caramel Macchiato",
-      "tagline": "Sucre, colore et plein energie",
-      "description": "Comme un caramel macchiato, vous melangez douceur et energie sans effort."
+      "name": "Caramel Macchiato"
     },
     "ISTJ": {
-      "name": "Americano",
-      "tagline": "Classique, stable et toujours fiable",
-      "description": "Comme un americano, vous etes une icone de fiabilite inebranlable."
+      "name": "Americano"
     },
     "INFP": {
-      "name": "Latte Lavande",
-      "tagline": "Unique, reveur et doux",
-      "description": "Comme un latte lavande, vous etes unique. Votre essence florale touche les coeurs."
+      "name": "Latte Lavande"
     },
     "ENTP": {
-      "name": "Double Flat White",
-      "tagline": "Audacieux, experimental et incisif",
-      "description": "Comme un double flat white, vous etes intense mais raffine."
+      "name": "Double Flat White"
     },
     "ISFJ": {
-      "name": "Latte Vanille",
-      "tagline": "Chaleureux, reconfortant et attentionne",
-      "description": "Comme un latte vanille, vous mettez tout le monde a aise."
+      "name": "Latte Vanille"
     },
     "ENTJ": {
-      "name": "Cold Brew",
-      "tagline": "Puissant, determine et net",
-      "description": "Comme un cold brew, vous semblez cool mais brulez intensite interieur."
+      "name": "Cold Brew"
     },
     "INFJ": {
-      "name": "Chai Latte",
-      "tagline": "Profond, complexe et mystique",
-      "description": "Comme un chai latte, vous etes un melange complexe de nombreuses epices."
+      "name": "Chai Latte"
     },
     "ESTP": {
-      "name": "Americano Glace",
-      "tagline": "Cool, energique et spontane",
-      "description": "Comme un americano glace, vous restez cool en toute situation."
+      "name": "Americano Glace"
     },
     "ISFP": {
-      "name": "Matcha Latte",
-      "tagline": "Artistique, naturel et sensoriel",
-      "description": "Comme un matcha latte, vous possedez une beaute naturelle."
+      "name": "Matcha Latte"
     },
     "ESTJ": {
-      "name": "Cafe Filtre",
-      "tagline": "Pratique, traditionnel et ne pour diriger",
-      "description": "Comme un cafe filtre, vous suivez le processus avec precision."
+      "name": "Cafe Filtre"
     },
     "INTP": {
-      "name": "Cafe Turc",
-      "tagline": "Intellectuel, unique et profond",
-      "description": "Comme un cafe turc, vous creez saveur profonde par methodes non conventionnelles."
+      "name": "Cafe Turc"
     },
     "ESFP": {
-      "name": "Frappuccino",
-      "tagline": "Ambiance festive, glamour et joyeux",
-      "description": "Comme un frappuccino, vous etes colore et plein de joie !"
+      "name": "Frappuccino"
     },
     "ISTP": {
-      "name": "Long Black",
-      "tagline": "Minimaliste, independant et fonctionnel",
-      "description": "Comme un long black, vous vous concentrez sur essentiel. Discret mais fort."
+      "name": "Long Black"
     },
     "ESFJ": {
-      "name": "Cappuccino",
-      "tagline": "Sociable, chaleureux et harmonieux",
-      "description": "Comme un cappuccino, vous etes un melange parfait de mousse et cafe."
+      "name": "Cappuccino"
     },
     "ENFJ": {
-      "name": "Moka",
-      "tagline": "Passionne, inclusif et doux mais fort",
-      "description": "Comme un moka, vous combinez chocolat et intensite espresso."
+      "name": "Moka"
     }
   },
-  "traits": {
-    "intense": "Intense",
-    "efficient": "Efficace",
-    "bold": "Audacieux",
-    "sweet": "Sucre",
-    "colorful": "Colore",
-    "energetic": "Energique",
-    "classic": "Classique",
-    "stable": "Stable",
-    "consistent": "Constant",
-    "unique": "Unique",
-    "dreamy": "Reveur",
-    "gentle": "Doux",
-    "experimental": "Experimental",
-    "sharp": "Incisif",
-    "warm": "Chaleureux",
-    "comforting": "Reconfortant",
-    "caring": "Attentionne",
-    "powerful": "Puissant",
-    "goalDriven": "Determine",
-    "clean": "Net",
-    "deep": "Profond",
-    "complex": "Complexe",
-    "mystical": "Mystique",
-    "cool": "Cool",
-    "spontaneous": "Spontane",
-    "artistic": "Artistique",
-    "natural": "Naturel",
-    "sensory": "Sensoriel",
-    "practical": "Pratique",
-    "traditional": "Traditionnel",
-    "leader": "Leader",
-    "intellectual": "Intellectuel",
-    "profound": "Profond",
-    "party": "Festif",
-    "glamorous": "Glamour",
-    "joyful": "Joyeux",
-    "minimal": "Minimaliste",
-    "independent": "Independant",
-    "functional": "Fonctionnel",
-    "social": "Sociable",
-    "harmonious": "Harmonieux",
-    "passionate": "Passionne",
-    "inclusive": "Inclusif",
-    "sweetStrong": "Doux & Fort"
+  "result": {
+    "kicker": "Votre association du jeu café",
+    "mapping": "Dans ce jeu créé, {code} est associé à {coffee}.",
+    "boundary": "Ces étiquettes sont ludiques, pas un résultat de personnalité ou de préférence.",
+    "nextTitle": "Choisissez une prochaine étape",
+    "guideAction": "Voir les guides culturels MBTI",
+    "loveAction": "Essayer les cartes de conversation",
+    "retry": "Rejouer"
   },
   "share": {
-    "title": "Partagez vos resultats",
-    "copyLink": "Copier le lien",
-    "copied": "Copie !",
-    "text": "Mon cafe MBTI est {coffee} ({mbti}) !",
-    "cta": "Trouvez le votre !"
-  },
-  "result": {
-    "moreTests": "Explorer plus",
-    "participants": "{count}+ personnes ont correspondu à ce café"
-  },
-  "related": {
-    "mbtiCity": "Ville MBTI",
-    "mbtiLove": "Compatibilité MBTI",
-    "mbtiCareer": "Carrière MBTI",
-    "emotionIceberg": "Iceberg émotionnel"
-  },
-  "about": {
-    "toggle": "À propos du test",
-    "heading1": "Comment fonctionne le test café MBTI",
-    "text1": "Le test analyse votre personnalité à travers 8 questions de scénarios de café. Selon vos réponses, vous êtes associé à un des 16 cafés.",
-    "heading2": "Ce que votre café dit de vous",
-    "text2": "Le café associé révèle des informations sur votre style d'énergie, préférences sociales et approche décisionnelle."
+    "title": "Partager le jeu café",
+    "button": "Partager un lien neutre",
+    "text": "Essayez cette réflexion café en huit scènes.",
+    "success": "Lien copié.",
+    "unavailable": "Partage indisponible."
   }
 }

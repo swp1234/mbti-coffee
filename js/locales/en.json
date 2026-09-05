@@ -1,11 +1,7 @@
 {
   "meta": {
-    "title": "Free MBTI Coffee Match Test Online - DopaBrain",
-    "description": "Find the coffee that matches your MBTI personality! Take this free online quiz with 8 cafe scenarios. Discover your coffee soulmate now!",
-    "participants": "8,900+",
-    "timeEstimate": "~2 min • 8 questions",
-    "previewText": "Sample:",
-    "participantsLabel": "participants"
+    "title": "Coffee Code Reflection",
+    "description": "Choose responses in eight café scenarios and see a playful coffee mapping."
   },
   "a11y": {
     "skipToContent": "Skip to content"
@@ -13,23 +9,14 @@
   "loader": {
     "loading": "Loading..."
   },
-  "about": {
-    "toggle": "About This Test",
-    "heading1": "How the MBTI Coffee Match Test Works",
-    "text1": "The MBTI Coffee Match Test analyzes your personality through 8 cafe scenario questions. Each question evaluates one of the four MBTI dimensions: Extraversion/Introversion, Sensing/Intuition, Thinking/Feeling, and Judging/Perceiving. Based on your answers, you are matched with one of 16 coffee drinks that best reflects your personality traits and coffee preferences.",
-    "heading2": "What Your Coffee Match Says About You",
-    "text2": "Your matched coffee reveals insights about your energy style, social preferences, and decision-making approach. Whether you resonate with Espresso's concentrated intensity, Caramel Macchiato's sweet energy, or Cold Brew's powerful calm, your coffee match helps you understand your personality in a fun, relatable way."
-  },
   "app": {
-    "title": "MBTI Coffee Match Test - Your Personality Coffee",
-    "subtitle": "Find the perfect coffee that matches your personality",
-    "startDesc": "Answer 8 coffee shop scenario questions to discover your MBTI coffee match!",
-    "startBtn": "Find My Coffee Match",
-    "questionLabel": "Question",
-    "ofLabel": "of",
-    "retryBtn": "Try Again",
-    "sampleQuestion": "Sample Question",
-    "sampleQuestionText": "You walk into a cafe. How do you order?"
+    "title": "Coffee Code Reflection",
+    "subtitle": "Choose what sounds fun in eight café scenarios.",
+    "method": "Method: two questions per letter pair. Options score 2, 1, 2, 1 points toward the shown side; ties use E, S, T, then J.",
+    "mapping": "The four-letter code maps to one of 16 coffees through a fixed authored lookup table.",
+    "boundary": "This entertainment page is not the official MBTI assessment and cannot determine personality or coffee preference.",
+    "source": "Official framework overview and assessment distinction",
+    "startBtn": "Start the coffee game"
   },
   "questions": {
     "q1": {
@@ -203,147 +190,68 @@
   },
   "results": {
     "INTJ": {
-      "name": "Espresso",
-      "tagline": "Intense, efficient, and beautifully bitter",
-      "description": "Like an espresso, you are a powerhouse of concentrated energy. You strip away the unnecessary and keep what matters. One sip — one lasting impression. Espresso is the perfect partner for your solo planning sessions."
+      "name": "Espresso"
     },
     "ENFP": {
-      "name": "Caramel Macchiato",
-      "tagline": "Sweet, colorful, and full of energy",
-      "description": "Like a caramel macchiato, you blend sweetness and energy effortlessly. With layers of different flavors, you bring a unique charm everywhere you go. This is the coffee for someone who loves new people and new adventures."
+      "name": "Caramel Macchiato"
     },
     "ISTJ": {
-      "name": "Americano",
-      "tagline": "Classic, stable, and always reliable",
-      "description": "Like an americano, you are an icon of unwavering reliability. Not flashy, but always there doing what needs to be done. Just like ordering the same coffee every day, your consistency is your greatest strength."
+      "name": "Americano"
     },
     "INFP": {
-      "name": "Lavender Latte",
-      "tagline": "Unique, dreamy, and gentle",
-      "description": "Like a lavender latte, you are one of a kind. Your subtle floral essence quietly touches people's hearts, and your rich inner world knows no bounds. This is a coffee as creative and emotional as you are."
+      "name": "Lavender Latte"
     },
     "ENTP": {
-      "name": "Double-Shot Flat White",
-      "tagline": "Bold, experimental, and sharp",
-      "description": "Like a double-shot flat white, you are intense yet refined. You love breaking the mold and shine brightest in debates and brainstorms. This coffee is for those who refuse to be ordinary."
+      "name": "Double-Shot Flat White"
     },
     "ISFJ": {
-      "name": "Vanilla Latte",
-      "tagline": "Warm, comforting, and deeply caring",
-      "description": "Like a vanilla latte, you make everyone feel at ease. Sweet and smooth, you quietly take care of those around you. Your subtle sweetness mirrors the gentle warmth of this beloved drink."
+      "name": "Vanilla Latte"
     },
     "ENTJ": {
-      "name": "Cold Brew",
-      "tagline": "Powerful, goal-driven, and clean",
-      "description": "Like a cold brew, you may seem cool on the outside but burn with intensity within. Slowly steeped over time for deep flavor — your planning and execution are unmatched. This is the coffee of leadership."
+      "name": "Cold Brew"
     },
     "INFJ": {
-      "name": "Chai Latte",
-      "tagline": "Deep, complex, and mystical",
-      "description": "Like a chai latte, you are a complex blend of many spices. Soft on the surface but hiding deep insight and passion within. You have a special gift for reading people's hearts."
+      "name": "Chai Latte"
     },
     "ESTP": {
-      "name": "Iced Americano",
-      "tagline": "Cool, energetic, and spontaneous",
-      "description": "Like an iced americano, you stay cool in any situation. Just as you'd order iced regardless of season, you live by your own rules without caring what others think. Action and presence are your weapons."
+      "name": "Iced Americano"
     },
     "ISFP": {
-      "name": "Matcha Latte",
-      "tagline": "Artistic, natural, and sensory",
-      "description": "Like a matcha latte, you possess a natural beauty. With the vivid green color representing your unique aesthetic sense, you quietly build your own world of art and expression."
+      "name": "Matcha Latte"
     },
     "ESTJ": {
-      "name": "Drip Coffee",
-      "tagline": "Practical, traditional, and a born leader",
-      "description": "Like drip coffee, you follow the process precisely while achieving the best results. Systematic and accurate execution is your style. You are the dependable leader — just like the perfect drip."
+      "name": "Drip Coffee"
     },
     "INTP": {
-      "name": "Turkish Coffee",
-      "tagline": "Intellectual, unique, and profound",
-      "description": "Like Turkish coffee, you create deep flavor through unconventional methods. Seeing the world through a different lens, you love solving complex puzzles. An analyst who finds meaning even in coffee grounds."
+      "name": "Turkish Coffee"
     },
     "ESFP": {
-      "name": "Frappuccino",
-      "tagline": "Party vibes, glamorous, and joyful",
-      "description": "Like a frappuccino, you are colorful and full of joy. With whipped cream and syrup-level charm, you make everyone around you smile. Life is a party — and so is your coffee!"
+      "name": "Frappuccino"
     },
     "ISTP": {
-      "name": "Long Black",
-      "tagline": "Minimal, independent, and functional",
-      "description": "Like a long black, you focus on the essence without any fluff. You function perfectly on your own and take only what you need. Quiet but strong — that's the long black, that's you."
+      "name": "Long Black"
     },
     "ESFJ": {
-      "name": "Cappuccino",
-      "tagline": "Social, warm, and harmonious",
-      "description": "Like a cappuccino, you are a perfect blend of smooth foam and rich coffee. At the center of every gathering, you make everyone comfortable. Your warm words brighten people's days."
+      "name": "Cappuccino"
     },
     "ENFJ": {
-      "name": "Mocha",
-      "tagline": "Passionate, inclusive, and sweet yet strong",
-      "description": "Like a mocha, you combine the sweetness of chocolate with the intensity of espresso. With warm charisma, you lead people and help everyone shine in their own unique way."
+      "name": "Mocha"
     }
   },
-  "traits": {
-    "intense": "Intense",
-    "efficient": "Efficient",
-    "bold": "Bold",
-    "sweet": "Sweet",
-    "colorful": "Colorful",
-    "energetic": "Energetic",
-    "classic": "Classic",
-    "stable": "Stable",
-    "consistent": "Consistent",
-    "unique": "Unique",
-    "dreamy": "Dreamy",
-    "gentle": "Gentle",
-    "experimental": "Experimental",
-    "sharp": "Sharp",
-    "warm": "Warm",
-    "comforting": "Comforting",
-    "caring": "Caring",
-    "powerful": "Powerful",
-    "goalDriven": "Goal-Driven",
-    "clean": "Clean",
-    "deep": "Deep",
-    "complex": "Complex",
-    "mystical": "Mystical",
-    "cool": "Cool",
-    "spontaneous": "Spontaneous",
-    "artistic": "Artistic",
-    "natural": "Natural",
-    "sensory": "Sensory",
-    "practical": "Practical",
-    "traditional": "Traditional",
-    "leader": "Leader",
-    "intellectual": "Intellectual",
-    "profound": "Profound",
-    "party": "Party",
-    "glamorous": "Glamorous",
-    "joyful": "Joyful",
-    "minimal": "Minimal",
-    "independent": "Independent",
-    "functional": "Functional",
-    "social": "Social",
-    "harmonious": "Harmonious",
-    "passionate": "Passionate",
-    "inclusive": "Inclusive",
-    "sweetStrong": "Sweet & Strong"
+  "result": {
+    "kicker": "Your café-game mapping",
+    "mapping": "In this authored café game, {code} maps to {coffee}.",
+    "boundary": "These are entertainment labels, not a personality or preference result.",
+    "nextTitle": "Choose one next step",
+    "guideAction": "Browse MBTI culture guides",
+    "loveAction": "Try the relationship conversation deck",
+    "retry": "Play again"
   },
   "share": {
-    "title": "Share Your Results",
-    "copyLink": "Copy Link",
-    "copied": "Copied!",
-    "text": "My MBTI coffee is {coffee} ({mbti})!",
-    "cta": "Find yours!"
-  },
-  "result": {
-    "moreTests": "Explore More",
-    "participants": "{count}+ people matched this coffee"
-  },
-  "related": {
-    "mbtiCity": "MBTI City",
-    "mbtiLove": "MBTI Love Match",
-    "mbtiCareer": "MBTI Career",
-    "emotionIceberg": "Emotion Iceberg"
+    "title": "Share the coffee game",
+    "button": "Share neutral link",
+    "text": "Try this eight-scenario coffee-code reflection.",
+    "success": "Link copied.",
+    "unavailable": "Sharing is unavailable."
   }
 }

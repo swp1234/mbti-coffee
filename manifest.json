@@ -1,7 +1,9 @@
 {
-  "name": "MBTI Coffee Test",
-  "short_name": "MBTI Coffee",
+  "name": "Coffee Code Reflection",
+  "short_name": "Coffee Code",
+  "description": "An authored eight-scenario coffee-code game, not an official MBTI assessment.",
   "start_url": "/mbti-coffee/",
+  "scope": "/mbti-coffee/",
   "display": "standalone",
   "background_color": "#0a0a1a",
   "theme_color": "#6F4E37",

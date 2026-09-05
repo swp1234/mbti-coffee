@@ -1,11 +1,7 @@
 {
   "meta": {
-    "title": "Tes Kopi MBTI Gratis - DopaBrain",
-    "description": "Kopi apa yang cocok dengan MBTI Anda? Tes gratis dengan 8 skenario kafe. Coba sekarang!",
-    "participants": "8.900+",
-    "timeEstimate": "~2 menit • 8 pertanyaan",
-    "previewText": "Contoh:",
-    "participantsLabel": "peserta"
+    "title": "Refleksi Kode Kopi",
+    "description": "Pilih respons dalam delapan situasi kafe dan lihat pemetaan kopi yang menyenangkan."
   },
   "a11y": {
     "skipToContent": "Langsung ke konten"
@@ -14,15 +10,13 @@
     "loading": "Memuat..."
   },
   "app": {
-    "title": "Tes Kopi MBTI - Kopi Kepribadianmu",
-    "subtitle": "Temukan kopi sempurna yang cocok dengan kepribadianmu",
-    "startDesc": "Jawab 8 pertanyaan skenario kafe dan temukan kopi MBTI-mu!",
-    "startBtn": "Temukan Kopi Saya",
-    "questionLabel": "Pertanyaan",
-    "ofLabel": "dari",
-    "retryBtn": "Coba lagi",
-    "sampleQuestion": "Contoh Pertanyaan",
-    "sampleQuestionText": "Kamu masuk ke kafe. Bagaimana cara kamu memesan?"
+    "title": "Refleksi Kode Kopi",
+    "subtitle": "Pilih untuk bersenang-senang dalam delapan situasi kafe.",
+    "method": "Metode: dua pertanyaan per pasangan huruf. Opsi memberi 2, 1, 2, 1 poin ke sisi yang ditunjukkan; seri memakai E, S, T, lalu J.",
+    "mapping": "Kode empat huruf dipetakan ke satu dari 16 kopi melalui tabel buatan yang tetap.",
+    "boundary": "Halaman hiburan ini bukan penilaian MBTI resmi dan tidak menentukan kepribadian atau selera kopi.",
+    "source": "Ringkasan kerangka resmi dan perbedaan penilaian",
+    "startBtn": "Mulai permainan kopi"
   },
   "questions": {
     "q1": {
@@ -196,154 +190,68 @@
   },
   "results": {
     "INTJ": {
-      "name": "Espresso",
-      "tagline": "Intens, efisien, dan pahit yang mempesona",
-      "description": "Seperti espresso, kamu adalah sumber energi yang terkonsentrasi. Menghilangkan yang tidak perlu dan menyimpan yang penting. Satu tegukan — satu kesan mendalam."
+      "name": "Espresso"
     },
     "ENFP": {
-      "name": "Caramel Macchiato",
-      "tagline": "Manis, warna-warni, dan penuh energi",
-      "description": "Seperti caramel macchiato, kamu memadukan kemanisan dan energi dengan mudah. Lapisan rasa berbeda seperti pesona beragammu yang menerangi setiap tempat."
+      "name": "Caramel Macchiato"
     },
     "ISTJ": {
-      "name": "Americano",
-      "tagline": "Klasik, stabil, dan selalu bisa diandalkan",
-      "description": "Seperti americano, kamu adalah ikon keandalan yang tak tergoyahkan. Tidak mencolok, tapi selalu ada melakukan apa yang perlu dilakukan."
+      "name": "Americano"
     },
     "INFP": {
-      "name": "Latte Lavender",
-      "tagline": "Unik, penuh mimpi, dan lembut",
-      "description": "Seperti latte lavender, kamu satu-satunya di dunia. Esensi bunga halusmu diam-diam menyentuh hati orang, dengan dunia batin yang kaya."
+      "name": "Latte Lavender"
     },
     "ENTP": {
-      "name": "Double-Shot Flat White",
-      "tagline": "Berani, eksperimental, dan tajam",
-      "description": "Seperti double-shot flat white, kamu intens tapi halus. Suka mematahkan cetakan dan bersinar dalam debat dan brainstorming."
+      "name": "Double-Shot Flat White"
     },
     "ISFJ": {
-      "name": "Vanilla Latte",
-      "tagline": "Hangat, nyaman, dan penuh perhatian",
-      "description": "Seperti vanilla latte, kamu membuat semua orang merasa nyaman. Manis dan lembut, diam-diam merawat orang di sekitarmu."
+      "name": "Vanilla Latte"
     },
     "ENTJ": {
-      "name": "Cold Brew",
-      "tagline": "Kuat, berorientasi tujuan, dan bersih",
-      "description": "Seperti cold brew, kamu terlihat dingin di luar tapi membara di dalam. Ekstraksi lama untuk rasa mendalam — perencanaan dan eksekusimu tak tertandingi."
+      "name": "Cold Brew"
     },
     "INFJ": {
-      "name": "Chai Latte",
-      "tagline": "Dalam, kompleks, dan mistis",
-      "description": "Seperti chai latte, kamu adalah campuran kompleks dari banyak rempah. Lembut di permukaan tapi menyimpan wawasan mendalam dan gairah di dalam."
+      "name": "Chai Latte"
     },
     "ESTP": {
-      "name": "Iced Americano",
-      "tagline": "Cool, energik, dan spontan",
-      "description": "Seperti iced americano, kamu tetap cool di situasi apapun. Apapun musimnya, kamu hidup dengan caramu sendiri."
+      "name": "Iced Americano"
     },
     "ISFP": {
-      "name": "Matcha Latte",
-      "tagline": "Artistik, alami, dan sensorial",
-      "description": "Seperti matcha latte, kamu memiliki keindahan alami. Dengan selera estetik unikmu, diam-diam membangun dunia seni sendiri."
+      "name": "Matcha Latte"
     },
     "ESTJ": {
-      "name": "Drip Coffee",
-      "tagline": "Praktis, tradisional, dan pemimpin alami",
-      "description": "Seperti drip coffee, kamu mengikuti proses dengan tepat dan mencapai hasil terbaik. Eksekusi sistematis dan akurat adalah gayamu."
+      "name": "Drip Coffee"
     },
     "INTP": {
-      "name": "Turkish Coffee",
-      "tagline": "Intelektual, unik, dan mendalam",
-      "description": "Seperti Turkish coffee, kamu menciptakan rasa mendalam dengan metode tidak konvensional. Melihat dunia dengan cara berbeda dan suka memecahkan masalah kompleks."
+      "name": "Turkish Coffee"
     },
     "ESFP": {
-      "name": "Frappuccino",
-      "tagline": "Pesta, glamor, dan penuh kegembiraan",
-      "description": "Seperti frappuccino, kamu penuh warna dan kegembiraan. Dengan pesona whipped cream dan sirup, kamu membuat semua orang tersenyum."
+      "name": "Frappuccino"
     },
     "ISTP": {
-      "name": "Long Black",
-      "tagline": "Minimalis, mandiri, dan fungsional",
-      "description": "Seperti long black, kamu fokus pada esensi tanpa embel-embel. Berfungsi sempurna sendiri dan mengambil hanya yang diperlukan."
+      "name": "Long Black"
     },
     "ESFJ": {
-      "name": "Cappuccino",
-      "tagline": "Sosial, hangat, dan harmonis",
-      "description": "Seperti cappuccino, kamu adalah paduan sempurna dari busa lembut dan kopi kaya. Di pusat setiap pertemuan, membuat semua orang nyaman."
+      "name": "Cappuccino"
     },
     "ENFJ": {
-      "name": "Mocha",
-      "tagline": "Penuh gairah, inklusif, manis dan kuat",
-      "description": "Seperti mocha, kamu memadukan manisnya cokelat dengan intensitas espresso. Dengan karisma hangat, kamu memimpin dan membantu semua orang bersinar."
+      "name": "Mocha"
     }
   },
-  "traits": {
-    "intense": "Intens",
-    "efficient": "Efisien",
-    "bold": "Berani",
-    "sweet": "Manis",
-    "colorful": "Warna-warni",
-    "energetic": "Energik",
-    "classic": "Klasik",
-    "stable": "Stabil",
-    "consistent": "Konsisten",
-    "unique": "Unik",
-    "dreamy": "Penuh Mimpi",
-    "gentle": "Lembut",
-    "experimental": "Eksperimental",
-    "sharp": "Tajam",
-    "warm": "Hangat",
-    "comforting": "Nyaman",
-    "caring": "Perhatian",
-    "powerful": "Kuat",
-    "goalDriven": "Berorientasi Tujuan",
-    "clean": "Bersih",
-    "deep": "Dalam",
-    "complex": "Kompleks",
-    "mystical": "Mistis",
-    "cool": "Cool",
-    "spontaneous": "Spontan",
-    "artistic": "Artistik",
-    "natural": "Alami",
-    "sensory": "Sensorial",
-    "practical": "Praktis",
-    "traditional": "Tradisional",
-    "leader": "Pemimpin",
-    "intellectual": "Intelektual",
-    "profound": "Mendalam",
-    "party": "Pesta",
-    "glamorous": "Glamor",
-    "joyful": "Gembira",
-    "minimal": "Minimalis",
-    "independent": "Mandiri",
-    "functional": "Fungsional",
-    "social": "Sosial",
-    "harmonious": "Harmonis",
-    "passionate": "Penuh Gairah",
-    "inclusive": "Inklusif",
-    "sweetStrong": "Manis+Kuat"
+  "result": {
+    "kicker": "Pemetaan permainan Anda",
+    "mapping": "Dalam permainan buatan ini, {code} dipetakan ke {coffee}.",
+    "boundary": "Ini label hiburan, bukan hasil kepribadian atau preferensi.",
+    "nextTitle": "Pilih satu langkah berikutnya",
+    "guideAction": "Lihat panduan budaya MBTI",
+    "loveAction": "Coba kartu percakapan hubungan",
+    "retry": "Main lagi"
   },
   "share": {
-    "title": "Bagikan hasilmu",
-    "copyLink": "Salin tautan",
-    "copied": "Tersalin!",
-    "text": "Kopi MBTI-ku adalah {coffee} ({mbti})!",
-    "cta": "Temukan punyamu!"
-  },
-  "result": {
-    "moreTests": "Jelajahi lagi",
-    "participants": "{count}+ orang cocok dengan kopi ini"
-  },
-  "related": {
-    "mbtiCity": "Kota MBTI",
-    "mbtiLove": "Kecocokan Cinta MBTI",
-    "mbtiCareer": "Karier MBTI",
-    "emotionIceberg": "Gunung es emosi"
-  },
-  "about": {
-    "toggle": "Tentang tes ini",
-    "heading1": "Cara kerja tes kopi MBTI",
-    "text1": "Tes ini menganalisis kepribadian Anda melalui 8 pertanyaan skenario kafe. Berdasarkan jawaban Anda, Anda dicocokkan dengan salah satu dari 16 kopi.",
-    "heading2": "Apa yang dikatakan kopi Anda tentang Anda",
-    "text2": "Kopi yang cocok mengungkapkan wawasan tentang gaya energi, preferensi sosial, dan pendekatan pengambilan keputusan Anda."
+    "title": "Bagikan permainan",
+    "button": "Bagikan tautan netral",
+    "text": "Coba refleksi kode kopi delapan situasi ini.",
+    "success": "Tautan disalin.",
+    "unavailable": "Berbagi tidak tersedia."
   }
 }
